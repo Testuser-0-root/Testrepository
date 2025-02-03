@@ -1,0 +1,4290 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K89PWR4');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '6690657704303572');
+        fbq('track', 'PageView');
+    </script>
+
+    <!-- End Meta Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P18BFK86FW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P18BFK86FW');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title id="txt_organisation"></title>
+    <meta name="description" content="MMA training fitness - Bengaluru. Aiming to teach and provide conditioning programs to everyone reach their fitness potential or to fullfil their dreams in combat sports,">
+
+
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link href="/Content/frontend/pmap_template/plugins/fontawesome-free/css/all.css" rel="stylesheet" />
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="/Content/frontend/pmap_template/dist/css/adminlte.min.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    
+    <style>
+        /* Paste this css to your style sheet file or under head tag */
+        /* This only works with JavaScript,
+        if it's not present, don't show loader */
+        .no-js #loader {
+            display: none;
+        }
+
+        .js #loader {
+            display: block;
+            position: absolute;
+            left: 100px;
+            top: 0;
+        }
+
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url(/Content/frontend/preloader/loader-64x/Preloader_2.gif) center no-repeat #fff;
+        }
+
+    </style>
+
+    <style>
+        #msgRateNow {
+            display: none;
+        }
+    </style>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        //paste this code under head tag or in a seperate js file.
+        // Wait for window load
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");
+        });
+    </script>
+    
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">
+
+    
+
+
+
+    <!-- jQuery -->
+    <script src="/Content/pmapscriptscss/pmapcommonscripts.js"></script>
+
+
+
+    <script src="/Content/frontend/pmap_template/plugins/jquery/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <style>
+        .circle_week {
+            background: #FF0000;
+            padding: 3px;
+            color: #FFFFFF;
+            border-radius: 35px;
+        }
+
+        .circle_week_ {
+            background: #FFFFFF;
+            padding: 3px;
+            color: #000000;
+            border-radius: 35px;
+        }
+    </style>
+
+    
+    <style>
+        .menu_text {
+            font-size: 15px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .fixed_menu {
+            height: 68px;
+            position: fixed;
+            padding-left: 366px;
+            margin-top: 8px;
+        }
+
+        .fixed_menu_mobile {
+            font-size: 15px;
+            height: 68px;
+            position: fixed;
+            padding-left: 265px;
+            margin-top: 10px;
+        }
+
+        .menu_sign_in_div {
+            margin-right: 161px !important;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .menu_sign_in_div_mobile {
+            margin-right: 46px !important;
+            margin-left: 0px !important;
+            margin-top: 0px !important;
+            margin-bottom: 0px !important;
+        }
+
+        .logo_size {
+            height: 40px;
+            margin-top: -6px;
+        }
+
+        .logo_size_mobile {
+            height: 31px;
+            margin-top: -4px;
+            margin-left: -14px;
+        }
+
+        .blog_mobile {
+            padding-top: 20px;
+        }
+
+        .blog_web {
+            padding-top: 20px;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+
+        .blogdetails_mobile {
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+
+        .blogdetails_web {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        .main_body_style {
+            width: 389px;
+        }
+    </style>
+
+</head>
+<body class="hold-transition sidebar-max sidebar-collapse" onload="loadInit();" id="main_body">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K89PWR4"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Meta Pixel Code -->
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=6690657704303572&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- Paste this code after body tag -->
+    <div class="se-pre-con"></div>
+    <!-- Ends -->
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="height: 66px;">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+
+                <li class="nav-item d-sm-inline-block" id="txt_logo">
+                    
+                </li>
+                
+            </ul>
+
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item d-sm-inline-block ">
+                    <div data-toggle="modal" onclick="openCenterTimeTablePopup();" data-target="#div_center_time_table" id="a_menu_free_trial" style="position: fixed;">
+                        Free Trial
+                    </div>
+
+                </li>
+
+
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="/FrontHome/FrontHome" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item d-sm-inline-block" id="div_programs">
+                    <a href="/FrontHome/FrontHome#div_programs_products" class="nav-link" id="a_menu_programs">Programs</a>
+                </li>
+                <li class="nav-item d-sm-inline-block" id="list_center_time_table">
+                    <a href="#" data-toggle="modal" data-target="#div_center_time_table" onclick="openCenterTimeTablePopup();" class="nav-link" id="a_menu_time_table">Time&#160;Table</a>
+                </li>
+                <li class="nav-item d-sm-inline-block" id="li_customer_login">
+                    <a href="#" data-toggle="modal" data-target="#modal-login" class="nav-link" id="a_menu_sign_in">Sign&#160;in</a>
+                </li>
+
+                <li class="nav-item d-sm-inline-block" style="margin-top: 40px; ">
+                    <div style="position: fixed; margin-left: -120px; padding-left: 80px;">
+                        <a href="tel:6364396563">
+                            <img src="/Uploads/Logo/call.png">
+                        </a>
+                    </div>
+                </li>
+
+                <li class="nav-item d-sm-inline-block" style="margin-top: 75px; ">
+                    <div style="position: fixed; margin-left: -120px; padding-left: 80px; ">
+                        <a href="https://wa.me/916364396563?text=Hi Kiakaha">
+                            <img src="/Uploads/Logo/whatsapp.png">
+                        </a>
+                    </div>
+                </li>
+
+
+            </ul>
+        </nav>
+
+
+        
+
+        
+
+        <div class="content-wrapper" style="background:#FFFFFF;">
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+
+
+                    
+
+<head>
+    <title></title>
+    <style>
+        .custom-col-sm-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        .margin_for_products {
+            margin-left: 13%;
+            margin-right: 13%;
+        }
+
+        .margin_left_for_headings {
+            margin-left: 13%;
+        }
+
+        .slider_img_size {
+            width: 100%;
+            height: 400px;
+        }
+
+        .slider_img_size_mobile {
+            width: 100%;
+            height: 200px;
+        }
+
+        .margin_top_to_block {
+            margin-top: 0px;
+        }
+
+        .kiakha_web {
+            font-size: 25px;
+        }
+
+        .kiakha_mobile {
+            font-size: 17px;
+        }
+
+        .faq_mobile {
+            margin-top: -50px;
+        }
+
+        .margin_for_sub_headings {
+            margin-left: 14%;
+        }
+    </style>
+</head>
+
+<div class="row" style="margin-left: -16px; margin-right: -15px;" id="div_banner_system">
+    
+</div>
+
+
+
+
+<div class="row" style="margin-left: -16px; margin-right: -15px;" id="div_banner_mobile">
+    
+</div>
+
+
+
+
+
+
+
+
+
+<h2 class="mb-2 margin_top_to_block" id="txt_main_heading"> </h2>
+
+<div class="row" id="div_main_key_points">
+
+</div>
+
+
+
+
+<h2 class="mb-2 margin_top_to_block" id="h2_programs">Training formats</h2>
+<p id="sub_programs"> For all Levels</p>
+
+<div class="row" id="div_programs_products">
+
+</div>
+
+
+
+<h2 class="mb-2 margin_top_to_block" id="h2_packages">Unlimited Membership Plan</h2>
+<div class="row" id="div_package_products">
+
+</div>
+
+
+<h2 class="mb-2 margin_top_to_block" id="h2_reviews">Customer Speak</h2>
+
+
+
+
+
+<div class="row" id="div_reviews_system">
+    <div class="col-md-12">
+        <div class="card-primary">
+            <div class="card-body" style="padding: 0px;">
+                <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_1">
+                                    <div class="post">
+                                        <div class="user-block">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Aryan Jordan</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            This is one place that you would most definitely want to be a part of. The training here is very personalized. I couldn't be happier with my decision to join Kia Kaha MMA Academy. One of the best decisions I've ever made in my life.
+
+                                                           
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!-- /.user-block -->
+
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_2">
+                                    <div class="post">
+                                        <div class="user-block">
+
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar1.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Punith M</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            The inspiration and level of dedication offered by the trainers is incredible.Emotions, strength and resilience, all channeled in a war of true sportsmanship. I would recommend Kia Kaha to anyone looking to join MMA training.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <!-- /.user-block -->
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_3">
+                                    <div class="post">
+                                        <div class="user-block">
+
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Anurag Sharma</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            Kia Kaha has provided an amazing  experience. The trainers are the best.I recommend all to Kia Kaha.for the experience and their understanding of the sport.The facility is outstanding with all the necessary equipment to sweat it out and learn the skills.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_4">
+                                    <div class="post">
+                                        <div class="user-block">
+
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar1.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Karthik K</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            As a beginner with no martial arts background, Kia Kaha is great place to start with all types of combat sports.This is one place that you would most definitely want to be a part of. The training here is very personalized.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+                                        </div>
+                                        <!-- /.user-block -->
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="row" id="div_reviews_mobile">
+    <div class="col-md-12">
+        <div class="card-primary">
+            <div class="card-body" style="padding: 0px;">
+                <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_1">
+                                    <div class="post">
+                                        <div class="user-block">
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Aryan Jordan</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            This is one place that you would most definitely want to be a part of. The training here is very personalized. I couldn't be happier with my decision to join Kia Kaha MMA Academy. One of the best decisions I've ever made in my life.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!-- /.user-block -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_2">
+                                    <div class="post">
+                                        <div class="user-block">
+
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar1.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Punith M</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            The inspiration and level of dedication offered by the trainers is incredible.Emotions, strength and resilience, all channeled in a war of true sportsmanship. I would recommend Kia Kaha to anyone looking to join MMA training.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <!-- /.user-block -->
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_3">
+                                    <div class="post">
+                                        <div class="user-block">
+
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Anurag Sharma</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            Kia Kaha has provided an amazing  experience. The trainers are the best.I recommend all to Kia Kaha.for the experience and their understanding of the sport.The facility is outstanding with all the necessary equipment to sweat it out and learn the skills.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_4">
+                                    <div class="post">
+                                        <div class="user-block">
+
+                                            <div class="row">
+                                                <div class="col-3">
+                                                    <img class="img-circle img-bordered-sm" src="/Content/appcontents/images/avatar1.jpg" alt="user image" style=" height: 100px; width: 100px;">
+                                                    <span class="username" style="margin-left:0px;text-align: center;">
+                                                        <a href="#">Karthik K</a>
+                                                    </span>
+                                                </div>
+                                                <div class="col-9">
+                                                    <div>
+                                                        <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">
+                                                            As a beginner with no martial arts background, Kia Kaha is great place to start with all types of combat sports.This is one place that you would most definitely want to be a part of. The training here is very personalized.
+
+                                                        </span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <!-- /.user-block -->
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<h2 class="mb-2 margin_top_to_block" id="h2_faq">FAQ</h2>
+
+<div class="row" id="div_faq" style="font-size:20px;">
+    <div class="col-lg-6 col-md-4 col-xs-6" id="faq_1">
+        <div class="card-primary">
+            <div class="card-body">
+                <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                    <div class="card-header" style="background: white; color: black;height: 85px;">
+                        <h3 class="card-title"> 1) Can i start without prior experience or any fitness background ?</h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;margin-top: -66px;">
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                        </div>
+                        <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        Yes, All our training formats are Beginner friendly, training will start according to your fitness level.
+
+
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+
+                <div id="div_faq_col_1" style="display:none;">
+
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">  3) I am a beginner, Which format should i start from ? </h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Since all the sessions are beginner friendly, you can start training in any formats, Sparring is one format that you should attend after attending any 5 sessions.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">
+                                5) Do i need to carry any gears ?
+                            </h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Gears are provided to you in our annual and half yearly packages. You can also buy a pair of Leather MMA Gloves and hand wraps at the centre or carry one by yourself.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">  7) Any chance to compete ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Yes. you will have complete support from kia kaha to train and compete. Kia Kaha will promote you as a fighter for the fight competitions. You can contact Head coach Nischal kellemane for any further queries on that.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">
+                                9) Are there any age restrictions ?
+                            </h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Anyone above age 5 can start training. Training sessions are monitored by trained professional fighters. Intensity of training is altered to each individual.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">  11) Do i get help with diet ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Yes
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 col-md-4 col-xs-6" id="faq_2">
+        <div class="card-primary">
+            <div class="card-body">
+
+                <div class="card card-primary collapsed-card" style="box-shadow: none;" id="faq_mobile">
+                    <div class="card-header" style="background: white; color: black;height: 85px;">
+                        <h3 class="card-title">  2) Is it important to attend all the formats ?  </h3>
+                        <div class="card-tools">
+                            <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                        </div>
+                        <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        No, As you know mma is a mixed of several martial arts, Also  you can choose and stick to any one format  depending on your interest.
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <div id="div_faq_col_2" style="display:none;">
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title"> 4) Can i start if i have no fitness background before ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Yes you can, all the classes are beginner friendly and sessions are monitored by trained professionals who will be training you safely.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title"> 6) Do i get hurt ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            No. all the training sessions are monitored by experienced professional fighters. injury is the last thing that you should be thinking of here.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title"> 8) How long does it take to learn ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            To learn the basics of MMA or any training formats, you will need 3 to 6 months. given you attending at least 3 skill sessions. anything more than that will speed up the process.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">  10) Can we use weights ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Yes, you can do your weight training separately at the center itself.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+                    <div class="card card-primary collapsed-card" style="box-shadow: none;">
+                        <div class="card-header" style="background: white; color: black;">
+                            <h3 class="card-title">  12) Can i go for fights ?</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">
+                                    <i class="fas fa-angle-down"></i>
+                                </button>
+                            </div>
+                            <!-- /.card-tools -->
+                        </div>
+                        <!-- /.card-header -->
+                        <div class="card-body">
+                            Yes, we promote you for the fights for all the forms we teach.
+                        </div>
+                        <!-- /.card-body -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-xs-12">
+        <a id="a_faq_show_all" onclick="showAllFaq();" href="javascript:void(0);" style="float:right;">+more</a>
+        <a id="a_faq_show_two" onclick="showTwoFaq();" href="javascript:void(0);" style="float:right;display:none;">-less</a>
+    </div>
+</div>
+
+
+
+
+
+
+<h2 class="mb-2 margin_top_to_block" id="h2_location">Location</h2>
+
+<div class="row" id="div_location" style="font-size: 20px;">
+
+</div>
+
+
+
+
+<script>
+
+    function getReviews() {
+
+
+        if (jQuery(window).width() >= 500) {//FOR SYSTEM JUST SHOW, FOR MOBILE HIDE
+            $('#div_reviews_system').show();
+            $('#div_reviews_mobile').html("");
+
+        } else {
+            $('#div_reviews_system').html("");
+            $('#div_reviews_mobile').show();
+        }
+
+
+    }
+
+
+</script>
+
+
+<script>
+
+    function getBanner() {
+
+
+        if (jQuery(window).width() >= 500) {//FOR SYSTEM JUST SHOW, FOR MOBILE HIDE
+            $('#div_banner_system').show();
+            $('#div_banner_mobile').html("");
+
+        } else {
+            $('#div_banner_system').html("");
+            $('#div_banner_mobile').show();
+        }
+
+
+    }
+
+
+</script>
+
+<script>
+
+    function getBranches() {
+        var branch_name_list = ["Koramangala", "Indiranagar", "Sarjapur Road"];
+        var branch_map_link_list = ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.593334871297!2d77.61731551482157!3d12.93383849088066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144545fac74b%3A0x11876d95df575c1a!2sKia+Kaha+MMA+Koramangala!5e0!3m2!1sen!2sin!4v1541415537459", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0993938388942!2d77.63950071385666!3d12.965491318522654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae141c69e24847%3A0x88aa1172394d3b8f!2sKia+Kaha+MMA+Indiranagar!5e0!3m2!1sen!2sin!4v1541415995363", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.875987026742!2d77.67074331385612!3d12.915691219599475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae137269c32c73%3A0xd54466d094077e78!2sKia+Kaha+MMA+Sarjapur+Road!5e0!3m2!1sen!2sin!4v1541416253903"];
+
+
+        var div_location = '';
+        for (var L = 0; L < branch_name_list.length; L++) {
+
+
+            var margin_left = 'margin-left: 15px;';
+            if (L == 0) {
+                margin_left = 'margin-left: 10px;';
+            }
+
+            var custom_style = '';
+            if (jQuery(window).width() < 500) {//FOR MOBILE
+                custom_style = 'style="display: inline-block; width:30%; ' + margin_left + '"';
+            } else {
+                custom_style = 'class="col-md-4"';
+            }
+
+            div_location = div_location
+                + '<div ' + custom_style + '>'
+                + '<div class="card card-primary">'
+                    + '<div class="card-body">'
+                        + '<h3 style="color:#991412;text-align: center;font-size: 15px;">' + branch_name_list[L]
+
+                        + '</h3>'
+
+                        + '<p style="text-align: center;"><iframe id="map1_iframe" style="width: 100%;" src="' + branch_map_link_list[L] + '"width="150" height="100" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>'
+
+                    + '</div>'
+                + '</div>'
+                + '</div>';
+        }
+
+        if (jQuery(window).width() < 500) {//FOR MOBILE
+            div_location = '<div style="overflow: auto;white-space: nowrap;">' + div_location + '</div>';
+        }
+
+        $('#div_location').html(div_location);
+
+
+    }
+
+
+</script>
+
+
+<script>
+
+    var prod_programs_size = 0;
+    var prod_packages_size = 0;
+
+    function getProductDetails(prod_category) {
+
+        var inputJson = {
+            prod_category: prod_category
+        };
+        console.log("getProductDetails Request : ", JSON.stringify(inputJson));
+        jQuery.ajax({
+            type: "POST",
+            url: '/FrontHome/getProductDetails',
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log("getProductDetails Response : ", JSON.stringify(res));
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+
+                if (res.is_success) {
+
+                    if (prod_category == "PROGRAMS") {
+                        var program_detials = "";
+                        var a = 2;
+                        prod_programs_size = res.details_list.length;
+                        for (var i = 0; i < res.details_list.length; i++) {
+                            var prod = res.details_list[i];
+                            var _id = "prod" + i;
+                            var url_padding = "&&product_name= " + prod.prod_name + removeTags(prod.prod_description);
+                            program_detials = program_detials
+
+                               + '<div id="' + _id + '" class="col-lg-3 col-md-4 col-xs-6" >'
+                                + '<a href="/ProductDetails/ProductDetails?product_id=' + prod.prod_guid + url_padding + '" style="width:100%;">'
+                                  + '<img src="/Uploads/Product_images/' + prod.prod_image + '" alt="Image" style="width:100%;padding-bottom: 15px;">'
+                                   //+ '<center> <h5 style="color:#000000;">' + prod.prod_name + ' </h5> </center>'
+                                + ' </a>'
+                               + '</div>';
+
+                        }
+                        $('#div_programs_products').html(program_detials);
+                        checkWidth();
+                        getProductDetails('PACKAGES');
+                    } else if (prod_category == "PACKAGES") {
+                        var package_detials = "";
+                        prod_packages_size = res.details_list.length;
+                        for (var i = 0; i < res.details_list.length; i++) {
+                            var prod = res.details_list[i];
+                            //var id = "prod_pkg" + i; class="col-lg-3 col-md-3 col-xs-6"
+                            var margin_left = 'margin-left: 10px;';
+                            if (i == 0) {
+                                margin_left = 'margin-left: 8px;';
+                            }
+
+
+                            var custom_style = '';
+                            if (jQuery(window).width() < 500) {//FOR MOBILE
+                                custom_style = 'style="display: inline-block; width:40%; ' + margin_left + '"';
+                            } else {
+                                custom_style = 'class="col-lg-3 col-md-3 col-xs-6"';
+                            }
+
+                            var url_padding = "&&product_name= " + prod.prod_name + removeTags(prod.prod_description);
+
+                            package_detials = package_detials
+
+                               + '<div ' + custom_style + '>'
+                                + '<a href="/ProductDetails/ProductDetails?product_id=' + prod.prod_guid + url_padding+ '" style="">'
+                                  + '<img src="/Uploads/Product_images/' + prod.prod_image + '" alt="Image" style="width:100%;padding-bottom: 15px;">'
+                                        + ' <table style="width:100%;">'
+                                              + '<tr>'
+                                                   + ' <td style="text-align: left;color:#000000;">Price</td>'
+                                                      + '<td style="text-align: right; color:#d3d3d3;"><strike style="color: black;">&#8377; ' + prod.prod_mrp + '</strike></td>'
+                                                       + ' </tr>'
+                                                       + '<tr>'
+                                                    + ' <td style="text-align: left;color:#000000;">Offer Price</td>'
+                                                      + '<td style="text-align: right; color:#FF0000;">&#8377; ' + prod.prod_price + '</td>'
+                                                      + '</tr>'
+                                                          + '</table>'
+                                + ' </a>'
+                               + '</div>'
+
+
+                        }
+                        if (jQuery(window).width() < 500) {//FOR MOBILE
+                            package_detials = '<div style="overflow: auto;white-space: nowrap;">' + package_detials + '</div>'
+                           + ' <div class="col-lg-12 col-md-12 col-xs-12">'
+                           + '  <a style="float:right;"><i class="fas fa-arrow-circle-right"></i></a>'
+
+     + '</div>'
+                        }
+
+                        $('#div_package_products').html(package_detials);
+                        checkWidth();
+
+                    }
+
+                } else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $(".overlay").hide();
+
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+
+
+</script>
+
+
+<script>
+    function removeTags(str) {
+        if ((str === null) || (str === ''))
+            return false;
+        else
+            str = str.toString();
+
+        // Regular expression to identify HTML tags in 
+        // the input string. Replacing the identified 
+        // HTML tag with a null string.
+        return str.replace(/(<([^>]+)>)/ig, '');
+    }
+</script>
+
+<script>
+  //  getBranches();
+   // getReviews();
+  //  getBanner();
+    getProductDetails('PROGRAMS');
+
+</script>
+
+
+<script>
+
+    function showMainKeyPoints() {
+
+        var key_points_style = 'style="height: 150px;margin-top: -5px;"';
+        if (jQuery(window).width() < 500) {
+            key_points_style = 'style="height: 130px;margin-top: -8px;"';
+        }
+
+        var main_key_points = '<div class="col-md-3" id="why_kk_text_1">'
+            + '<div class="card card-primary">'
+                + '<div class="card-body" ' + key_points_style + '>'
+                    + '<h2 style="font-size:38px; color: red;">#1</h2><span id="kk_text_1">Beginner Friendly</span>'
+                + '</div>'
+            + '</div>'
+        + '</div>'
+
+        + '<div class="col-md-3" id="why_kk_text_2">'
+            + '<div class="card card-primary">'
+                + '<div class="card-body" ' + key_points_style + '>'
+                    + '<h2 style="font-size:38px; color: red;">#2</h2> <span id="kk_text_2">Flexible time slots </span>'
+                + '</div>'
+            + '</div>'
+        + '</div>'
+        + '<div class="col-md-3" id="why_kk_text_3">'
+            + '<div class="card card-primary">'
+                + '<div class="card-body" style="height: 150px;margin-top: -5px;">'
+                    + '<h2 style="font-size:38px; color: red;">#3</h2><span id="kk_text_3">Guided classes by professional fighters </span>'
+
+                + '</div>'
+            + '</div>'
+        + '</div>'
+        + '<div class="col-md-3" id="why_kk_text_4">'
+            + '<div class="card card-primary">'
+                + '<div class="card-body" style="height: 150px;margin-top: -5px;">'
+                    + '<h2 style="font-size:38px; color: red;">#4</h2><span id="kk_text_4">Multiple forms to choose from </span>'
+                + '</div>'
+            + '</div>'
+        + '</div>';
+
+        $('#div_main_key_points').html(main_key_points);
+
+    }
+   // showMainKeyPoints();
+</script>
+
+<script>
+
+    function checkWidth() {
+        if (jQuery(window).width() < 500) {
+
+
+            for (var img = 1; img <= 3; img++) {
+                img_id = "img_slider_" + img;
+                $('#' + img_id).addClass('slider_img_size_mobile');
+            }
+
+            //FOR WHY KIKAHA
+            $('#why_kk_text_1').addClass('custom-col-sm-6');
+            $('#why_kk_text_2').addClass('custom-col-sm-6');
+            $('#why_kk_text_3').addClass('custom-col-sm-6');
+            $('#why_kk_text_4').addClass('custom-col-sm-6');
+
+            //======FOR PROGRAMS=====
+            for (var i = 0; i < prod_programs_size; i++) {
+                var _id = "prod" + i;
+                $('#' + _id).addClass('custom-col-sm-6');
+            }
+
+            //======FOR PACKAGES=====
+            //for (var i = 0; i < prod_packages_size; i++) {
+            //    var _id = "prod_pkg" + i;
+            //    $('#' + _id).addClass('custom-col-sm-6');
+            //}
+
+
+
+            $('#kk_text_1').addClass('kiakha_mobile');
+            $('#kk_text_2').addClass('kiakha_mobile');
+            $('#kk_text_3').addClass('kiakha_mobile');
+            $('#kk_text_4').addClass('kiakha_mobile');
+
+
+
+            //===========REVIEWS==========
+            $('#div_review_1').addClass('custom-col-sm-12');
+            $('#div_review_2').addClass('custom-col-sm-12');
+            $('#div_review_3').addClass('custom-col-sm-12');
+            $('#div_review_4').addClass('custom-col-sm-12');
+
+
+            //===========FAQ==========
+            $('#faq_1').addClass('custom-col-sm-4');
+            $('#faq_2').addClass('custom-col-sm-4');
+            //$('#faq_3').addClass('custom-col-sm-4');
+            $('#faq_mobile').addClass('faq_mobile');
+
+            ////LOCATION
+            $('#map_1').addClass('custom-col-sm-4');
+            $('#map_2').addClass('custom-col-sm-4');
+            $('#map_3').addClass('custom-col-sm-4');
+
+        } else {
+            for (var img = 1; img <= 3; img++) {
+                img_id = "img_slider_" + img;
+                $('#' + img_id).addClass('slider_img_size');
+            }
+
+
+
+            $('#kk_text_1').addClass('kiakha_web');
+            $('#kk_text_2').addClass('kiakha_web');
+            $('#kk_text_3').addClass('kiakha_web');
+            $('#kk_text_4').addClass('kiakha_web');
+
+            $('#div_programs_products').addClass('margin_for_products');
+            $('#div_package_products').addClass('margin_for_products');
+            $('#div_reviews').addClass('margin_for_products');
+            $('#div_reviews_system').addClass('margin_for_products');
+            $('#div_faq').addClass('margin_for_products');
+            $('#div_location').addClass('margin_for_products');
+
+            $('#h2_programs').addClass('margin_left_for_headings');
+            $('#h2_packages').addClass('margin_left_for_headings');
+            $('#h2_reviews').addClass('margin_left_for_headings');
+            $('#h2_faq').addClass('margin_left_for_headings');
+            $('#h2_location').addClass('margin_left_for_headings');
+
+            $('#sub_programs').addClass('margin_for_sub_headings');
+
+        }
+
+    }
+
+    function showAllFaq() {
+        $('#div_faq_col_1').show();
+        $('#div_faq_col_2').show();
+        $('#a_faq_show_two').show();
+        $('#a_faq_show_all').hide();
+
+    }
+
+    function showTwoFaq() {
+        $('#div_faq_col_1').hide();
+        $('#div_faq_col_2').hide();
+        $('#a_faq_show_two').hide();
+        $('#a_faq_show_all').show();
+    }
+
+</script>
+
+
+
+<script>
+    function getReviewDetails() {
+
+        jQuery.ajax({
+            type: "POST",
+            url: '/FrontHome/getReviewDetails',
+            dataType: 'json',
+            data: '',
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log("getReviewDetails Response : ", JSON.stringify(res));
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+
+                if (res.is_success) {
+
+                    var system_reviews = '';
+                    var mobile_reviews = '';
+
+                    for (var i = 0; i < res.details_list.length; i++) {
+                        var prod = res.details_list[i];
+
+                        var system_reviews = '<div class="col-md-12">'
+        + '  <div class="card-primary">'
+            + '  <div class="card-body" style="padding: 0px;">'
+                 + ' <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">'
+                     + ' <div class="carousel-inner">'
+                         + ' <div class="carousel-item active">'
+                              + '<div class="row">'
+                                + '  <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_1">'
+                                    + '  <div class="post">'
+                                       + '   <div class="user-block">'
+                                          + '    <div class="row">'
+                                              + '    <div class="col-3">'
+                                                  + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_1 + '" alt="user image" style=" height: 100px; width: 100px;">'
+                                                    + '  <span class="username" style="margin-left:0px;text-align: center;">'
+                                                          + '<a href="#">'+prod.cs_name_1+'</a>'
+                                                    + ' </span>'
+                                               + '   </div>'
+                                               + '   <div class="col-9">'
+                                                   + '   <div>'
+                                                     + '     <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  '+prod.cs_feedback_1+ ' </span>'
+              + '  </div>'
+           + ' </div>'
+        + '</div>'
+   + ' </div>'
++ '  </div>'
++ ' </div>'
++ '    <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_2">'
++ '<div class="post">'
+ + '   <div class="user-block">'
+  + '      <div class="row">'
+        + '    <div class="col-3">'
+           + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_2 + '" alt="user image" style=" height: 100px; width: 100px;">'
+           + '     <span class="username" style="margin-left:0px;text-align: center;">'
+              + '<a href="#">'+prod.cs_name_2+'</a>'
+            + '    </span>'
+         + '   </div>'
+         + '   <div class="col-9">'
+              + '  <div>'
+                  + '<span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  '+prod.cs_feedback_2+ ' </span>'
+
+                 + ' </div>'
+            + '  </div>'
+        + '  </div>'
+     + ' </div>'
++ '    </div>'
++ '  </div>'
++ '  </div>'
++ '  </div>'
++ '  <div class="carousel-item">'
++ '   <div class="row">'
++ '<div class="col-lg-6 col-md-4 col-xs-6" id="div_review_3">'
++ '   <div class="post">'
+  + '    <div class="user-block">'
+       + '   <div class="row">'
+           + '   <div class="col-3">'
+           + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_3 + '" alt="user image" style=" height: 100px; width: 100px;">'
+                + '  <span class="username" style="margin-left:0px;text-align: center;">'
+                + '<a href="#">'+prod.cs_name_3+'</a>'
+              + '   </span>'
+           + '  </div>'
+            + '  <div class="col-9">'
+                + '  <div>'
+                   + '<span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  '+prod.cs_feedback_3+ ' </span>'
+
+                 + ' </div>'
+             + ' </div>'
+         + ' </div>'
+     + ' </div>'
+  + '</div>'
+  + '</div>'
++ '  <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_4">'
++ '  <div class="post">'
+   + '   <div class="user-block">'
+     + '     <div class="row">'
+         + '     <div class="col-3">'
+           + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_4 + '" alt="user image" style=" height: 100px; width: 100px;">'
+            + '      <span class="username" style="margin-left:0px;text-align: center;">'
+                      + '<a href="#">'+prod.cs_name_4+'</a>'
+                  + '</span>'
+             + ' </div>'
+            + '  <div class="col-9">'
+                + '  <div>'
+                      + '<span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  '+prod.cs_feedback_4+ ' </span>'
+
+            + '     </div>'
+             + ' </div>'
+        + '  </div>'
+    + '  </div>'
+  + '</div>'
++ '  </div>'
++ ' </div>'
++ '</div>'
++ ' </div>'
++ '  <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">'
++ '  <span class="carousel-control-prev-icon" aria-hidden="true"></span>'
++ '   <span class="sr-only">Previous</span>'
++ '  </a>'
++ ' <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">'
++ '     <span class="carousel-control-next-icon" aria-hidden="true"></span>'
++ '    <span class="sr-only">Next</span>'
++ '   </a>'
++ '  </div>'
++ ' </div>'
++ '  </div>'
++ ' </div>';
+
+
+                        var mobile_reviews = '<div class="col-md-12">'
+        + '  <div class="card-primary">'
+            + '  <div class="card-body" style="padding: 0px;">'
+                 + ' <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">'
+                     + ' <div class="carousel-inner">'
+                         + ' <div class="carousel-item active">'
+                              + '<div class="row">'
+                                + '  <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_1">'
+                                    + '  <div class="post">'
+                                       + '   <div class="user-block">'
+                                          + '    <div class="row">'
+                                              + '    <div class="col-3">'
+                                                  + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_1 + '" alt="user image" style=" height: 100px; width: 100px;">'
+                                                    + '  <span class="username" style="margin-left:0px;text-align: center;">'
+                                                          + '<a href="#">' + prod.cs_name_1 + '</a>'
+                                                    + ' </span>'
+                                               + '   </div>'
+                                               + '   <div class="col-9">'
+                                                   + '   <div>'
+                                                     + '     <span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  ' + prod.cs_feedback_1 + ' </span>'
+              + '  </div>'
+           + ' </div>'
+        + '</div>'
+   + ' </div>'
++ '  </div>'
++ ' </div>'
++ '    <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_2">'
++ '<div class="post">'
+ + '   <div class="user-block">'
+  + '      <div class="row">'
+        + '    <div class="col-3">'
+           + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_2 + '" alt="user image" style=" height: 100px; width: 100px;">'
+           + '     <span class="username" style="margin-left:0px;text-align: center;">'
+              + '<a href="#">' + prod.cs_name_2 + '</a>'
+            + '    </span>'
+         + '   </div>'
+         + '   <div class="col-9">'
+              + '  <div>'
+                  + '<span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  ' + prod.cs_feedback_2 + ' </span>'
+
+                 + ' </div>'
+            + '  </div>'
+        + '  </div>'
+     + ' </div>'
++ '    </div>'
++ '  </div>'
++ '  </div>'
++ '  </div>'
++ '  <div class="carousel-item">'
++ '   <div class="row">'
++ '<div class="col-lg-6 col-md-4 col-xs-6" id="div_review_3">'
++ '   <div class="post">'
+  + '    <div class="user-block">'
+       + '   <div class="row">'
+           + '   <div class="col-3">'
+           + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_3 + '" alt="user image" style=" height: 100px; width: 100px;">'
+                + '  <span class="username" style="margin-left:0px;text-align: center;">'
+                + '<a href="#">' + prod.cs_name_3 + '</a>'
+              + '   </span>'
+           + '  </div>'
+            + '  <div class="col-9">'
+                + '  <div>'
+                   + '<span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  ' + prod.cs_feedback_3 + ' </span>'
+
+                 + ' </div>'
+             + ' </div>'
+         + ' </div>'
+     + ' </div>'
+  + '</div>'
+  + '</div>'
++ '  <div class="col-lg-6 col-md-4 col-xs-6" id="div_review_4">'
++ '  <div class="post">'
+   + '   <div class="user-block">'
+     + '     <div class="row">'
+         + '     <div class="col-3">'
+           + '    <img class="img-circle img-bordered-sm" src="/Uploads/Customer_speak_images/' + prod.cs_image_4 + '" alt="user image" style=" height: 100px; width: 100px;">'
+            + '      <span class="username" style="margin-left:0px;text-align: center;">'
+                      + '<a href="#">' + prod.cs_name_4 + '</a>'
+                  + '</span>'
+             + ' </div>'
+            + '  <div class="col-9">'
+                + '  <div>'
+                      + '<span class="description" style="font-size: 18px; padding-top: 10px;margin-left:5px;">  ' + prod.cs_feedback_4 + ' </span>'
+
+            + '     </div>'
+             + ' </div>'
+        + '  </div>'
+    + '  </div>'
+  + '</div>'
++ '  </div>'
++ ' </div>'
++ '</div>'
++ ' </div>'
++ '  <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">'
++ '  <span class="carousel-control-prev-icon" aria-hidden="true"></span>'
++ '   <span class="sr-only">Previous</span>'
++ '  </a>'
++ ' <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">'
++ '     <span class="carousel-control-next-icon" aria-hidden="true"></span>'
++ '    <span class="sr-only">Next</span>'
++ '   </a>'
++ '  </div>'
++ ' </div>'
++ '  </div>'
++ ' </div>';
+
+                        $('#div_reviews_system').html(system_reviews);
+                        $('#div_reviews_mobile').html(mobile_reviews);
+
+                        getReviews();
+                        checkWidth();
+                    }
+                }
+
+                else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $(".overlay").hide();
+
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+
+
+</script>
+<script>
+    // getReviewDetails();
+</script>
+
+
+
+
+<script>
+    function getFaqDetails() {
+
+        jQuery.ajax({
+            type: "POST",
+            url: '/FrontHome/getFaqDetails',
+            dataType: 'json',
+            data: '',
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log("getFaqDetails Response : ", JSON.stringify(res));
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+
+                if (res.is_success) {
+
+                    var faq = '';
+
+                    for (var i = 0; i < res.details_list.length; i++) {
+                        var prod = res.details_list[i];
+
+                        var faq = '<div class="col-lg-6 col-md-4 col-xs-6" id="faq_1">'
+         + ' <div class="card-primary">'
+             + ' <div class="card-body">'
+               + '   <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                   + '   <div class="card-header" style="background: white; color: black;height: 85px;">'
+                       + '   <h3 class="card-title"> 1)'+ prod.faq_question_1 +'</h3>'
+                        + '  <div class="card-tools">'
+                            + '  <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;margin-top: -66px;">'
+                              + '    <i class="fas fa-angle-down"></i>'
+                             + ' </button>'
+                          + '</div>'
+                    + '  </div>'
+                    + '  <div class="card-body">' + prod.faq_answer_1 +'  </div>'
+              + '  </div>'
+
+                + ' <div id="div_faq_col_1" style="display:none;">'
+
+                   + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                       + '  <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title">  3) '+prod.faq_question_3 +'</h3>'
+                           + '  <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                                + '     <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                       + '  <div class="card-body">' + prod.faq_answer_3 + '</div>'
+                    + '  </div>'
+
+                   + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                       + '  <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title">  5) '+prod.faq_question_5 +'</h3>'
+                           + '  <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                                + '     <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                       + '  <div class="card-body">' + prod.faq_answer_5 + '</div>'
+                    + '  </div>'
+
+                   + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                       + '  <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title">  7) '+prod.faq_question_7 +'</h3>'
+                           + '  <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                                + '     <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                       + '  <div class="card-body">' + prod.faq_answer_7 + '</div>'
+                    + '  </div>'
+
+                  + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                       + '  <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title">  9) '+prod.faq_question_9 +'</h3>'
+                           + '  <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                                + '     <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                       + '  <div class="card-body">' + prod.faq_answer_9 + '</div>'
+                    + '  </div>'
+                  + '  </div>'
+              + '  </div>'
+          + '  </div>'
+     + '   </div>'
+
+
+     + '<div class="col-lg-6 col-md-4 col-xs-6" id="faq_2">'
+       + '  <div class="card-primary">'
+          + '   <div class="card-body">'
+             + '    <div class="card card-primary collapsed-card" style="box-shadow: none;" id="faq_mobile">'
+                + '     <div class="card-header" style="background: white; color: black;height: 85px;">'
+                       + '  <h3 class="card-title">  2)'+ prod.faq_question_2 +'   </h3>'
+                       + '  <div class="card-tools">'
+                        + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                        + '         <i class="fas fa-angle-down"></i>'
+                        + '     </button>'
+                       + '  </div>'
+                   + '  </div>'
+                     + '  <div class="card-body">' + prod.faq_answer_2 + '</div>'
+              + '   </div>'
+
+                + ' <div id="div_faq_col_2" style="display:none;">'
+                   + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                     + '    <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title"> 4) '+ prod.faq_question_4 +'</h3>'
+                         + '    <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                              + '       <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                      + '  <div class="card-body">' + prod.faq_answer_4 + '</div>'
+                    + ' </div>'
+
+                     + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                     + '    <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title"> 6) '+ prod.faq_question_6 +'</h3>'
+                         + '    <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                              + '       <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                      + '  <div class="card-body">' + prod.faq_answer_6 + '</div>'
+                    + ' </div>'
+
+                    + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                     + '    <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title"> 8) '+ prod.faq_question_8 +'</h3>'
+                         + '    <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                              + '       <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                      + '  <div class="card-body">' + prod.faq_answer_8 + '</div>'
+                    + ' </div>'
+
+                   + '  <div class="card card-primary collapsed-card" style="box-shadow: none;">'
+                     + '    <div class="card-header" style="background: white; color: black;">'
+                        + '     <h3 class="card-title"> 10) '+ prod.faq_question_10 +'</h3>'
+                         + '    <div class="card-tools">'
+                            + '     <button type="button" class="btn btn-tool" data-card-widget="collapse" style="color:black;">'
+                              + '       <i class="fas fa-angle-down"></i>'
+                              + '   </button>'
+                           + '  </div>'
+                       + '  </div>'
+                      + '  <div class="card-body">' + prod.faq_answer_10 + '</div>'
+                    + ' </div>'
+                  + '  </div>'
+              + '  </div>'
+          + '  </div>'
+     + '   </div>'
+
+     + '<div class="col-lg-12 col-md-12 col-xs-12">'
+       + '  <a id="a_faq_show_all" onclick="showAllFaq();" href="javascript:void(0);" style="float:right;">+more</a>'
+       + '  <a id="a_faq_show_two" onclick="showTwoFaq();" href="javascript:void(0);" style="float:right;display:none;">-less</a>'
+     + '</div>'
+
+
+                        $('#div_faq').html(faq);
+                        checkWidth();
+                    }
+                }
+
+                else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $(".overlay").hide();
+
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+
+
+</script>
+
+
+
+<script>
+    function getLocationDetails() {
+
+        jQuery.ajax({
+            type: "POST",
+            url: '/FrontHome/getLocationDetails',
+            dataType: 'json',
+            data: '',
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log("getLocationDetails Response : ", JSON.stringify(res));
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+
+                if (res.is_success) {
+                    var div_location = '';
+                    for (var i = 0; i < res.details_list.length; i++) {
+                        var prod = res.details_list[i];
+                       
+                        var margin_left = 'margin-left: 15px;';
+                        if (i == 0) {
+                            margin_left = 'margin-left: 10px;';
+                        }
+
+                        var custom_style = '';
+                        if (jQuery(window).width() < 500) {//FOR MOBILE
+                            custom_style = 'style="display: inline-block; width:30%; ' + margin_left + '"';
+                        } else {
+                            custom_style = 'class="col-md-4"';
+                        }
+
+                        div_location = div_location
+                            + '<div ' + custom_style + '>'
+                            + '<div class="card card-primary">'
+                                + '<div class="card-body">'
+                                    + '<h3 style="color:#991412;text-align: center;font-size: 15px;">' + prod.branch_name
+
+                                    + '</h3>'
+
+                                    + '<p style="text-align: center;"><iframe id="map1_iframe" style="width: 100%;" src="' + prod.branch_google_location_link + '"width="150" height="100" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>'
+
+                                + '</div>'
+                            + '</div>'
+                            + '</div>';
+                    }
+
+                    if (jQuery(window).width() < 500) {//FOR MOBILE
+                        div_location = '<div style="overflow: auto;white-space: nowrap;">' + div_location + '</div>';
+                    }
+
+                    $('#div_location').html(div_location);
+                    checkWidth();
+                    
+                }
+
+                else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $(".overlay").hide();
+
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+
+
+</script>
+<script>
+    getReviewDetails();
+    getFaqDetails();
+    getLocationDetails();
+</script>
+                </div>
+            </section>
+            <!-
+            - /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+        <footer class="main-footer" style="background: black;color: white;margin-top:35px;">
+            <div class="float-right d-none d-sm-block">
+                <b>Version</b> 1.0
+            </div>
+            <div class="row" id="txt_footer">
+                
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="/GetFrontendBlogs/GetFrontendBlogs" style="font-size: 20px;color: #f8f9fa;">Blogs </a>
+
+                </div>
+                <div class="col-md-12">
+                    <a href="/TermsAndConditions/TermsAndCondition" style="font-size: 20px;color: #f8f9fa;">Terms & Conditions </a>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p style="font-size: 20px;color: #f8f9fa;">Download KiaKaha app for best experience</p>
+                    <div class="row">
+                        <a href="https://play.google.com/store/apps/details?id=com.pmap.kiakaha"><img src="/Content/appcontents/images/play-store.png" style="height:55px;" id="playstore" /></a>
+                        <a href="https://apps.apple.com/in/app/kiakaha/id1535825715"><img src="/Content/appcontents/images/app-store.png" style="height:55px;" id="appstore" /></a>
+                    </div>
+                </div>
+
+            </div>
+            <strong>Copyright &copy; 2020-2030 <a href="https://kiakaha.in">Kiakaha MMA Academy</a>.</strong> All rights
+            reserved.
+        </footer>
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Control sidebar content goes here -->
+        </aside>
+        <!-- /.control-sidebar -->
+    </div>
+    <!-- ./wrapper -->
+
+
+    <div class="modal fade" id="div_center_time_table">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                
+                
+                <script>
+                    function GetBookingClassDetails() {
+                        var class_customer_guid = '';
+
+                        var inputJson = {
+                            class_customer_guid: class_customer_guid
+                        };
+                        console.log("ActiveMemberLastClassBookedWithoutRateCustomerID Request : ", JSON.stringify(inputJson));
+                        $('#img_gif_loading_students_list').show();
+                        jQuery.ajax({
+                            type: "POST",
+                            url: '/BookTheClass/ActiveMemberLastClassBookedWithoutRateCustomerID',
+                            dataType: 'json',
+                            data: JSON.stringify(inputJson),
+                            contentType: "application/json; charset=utf-8",
+                            success: function (res) {
+                                console.log("ActiveMemberClassBookingListByCustomerID : ", JSON.stringify(res));
+                                $('#btn_submit').prop('disabled', false);
+                                $('#img_gif_loading_students_list').hide();
+                                if (res.is_success) {
+                                    for (var s = 0; s < res.customer_class_booking_list.length; s++) {
+                                        var st = res.customer_class_booking_list[s];
+                                        if (st.class_is_rated === false) {
+                                            $('#ClassBooking').hide();
+                                            $('#msgRateNow').show(); // This will make it visible when needed
+                                        }
+                                    }
+                        
+
+                                } else {
+                                    // alert(res.msg + "9");
+                                    //window.location.reload();
+                                }
+
+                            },
+                            failure: function (data) {
+                                alert("Network error occurred.");
+                                $(".overlay").hide();
+
+                            },
+                            error: function (jqXHR, exception) {
+                                if (jqXHR.status === 0) {
+                                    alert('Please Check Your Internet Connection.');
+                                } else if (jqXHR.status == 404) {
+                                    alert('Requested page not found. [404]');
+                                } else if (jqXHR.status == 500) {
+                                    alert('Internal Server Error [500].');
+                                } else if (exception === 'parsererror') {
+                                    alert('Requested JSON parse failed.');
+                                } else if (exception === 'timeout') {
+                                    alert('Time out error.');
+                                } else if (exception === 'abort') {
+                                    alert('Ajax request aborted.');
+                                } else {
+                                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                                }
+                                $(".overlay").hide();
+                            }
+
+                        });
+                    }
+                </script>
+
+                <script>
+                    //   GetBookingClassDetails();
+                </script>
+
+                
+
+                <div class="modal-body" id="ClassBooking">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="form-group">
+                            <label style="float:left">Select Center<span style="color:red">*</span></label>
+
+                            <select class="custom-select" id="sel_center" style="width:100%;"></select>
+                        </div>
+                    </div>
+                    <center class="row" id="div_weeks_and_date">
+
+                    </center>
+                    <hr />
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="div_classes">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                
+                            </div>
+                            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                    <center>
+                        <img src="/Content/appcontents/images/Preloader_2.gif" id="img_gif_loading_btn_submit" style="width:30px;display:none;" />
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="msgRateNow">
+                    <center>
+                        <div class="form-group">
+                            <br /><br />
+                            <p style="color:red"><span style="color:red">*</span>Leave your rate for your pervious class,its help us to improve</p>
+                            
+                        </div>
+                    </center>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+
+    <form>
+
+        <div class="modal fade" id="modal-login">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Sign In</h4>
+                        <button type="button" class="close" data-dismiss="modal" onclick="hideLogin();" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="card-body login-card-body">
+                            <p class="login-box-msg">Sign in1 </p>
+
+                            <div class="input-group mb-3">
+                                <input type="text" id="txt_log_username" class="form-control" placeholder="Enter Mobile Number/Email">
+                                <div class="input-group-append">
+                                    <div class="input-group-text">
+                                        <span class="fas fa-envelope"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="password" id="txt_log_userpassword" class="form-control" placeholder="Enter Password">
+                                <div class="input-group-append">
+                                    <div class="input-group-text">
+                                        <span class="fas fa-lock"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <!-- /.col -->
+                                <div class="col-12">
+                                    <button type="submit" onclick="customerLogin();" id="btn_login" class="btn btn-primary btn-block">Login</button>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+
+
+                            <!-- /.social-auth-links -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <p class="mb-1">
+                                        <a href="/CustomerForgotPassword/CustomerforgotPassword#">Forgot Password</a>
+                                    </p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="mb-0" style="text-align: end;">
+                                        <a href="register.html" data-toggle="modal" data-target="#modal-register">New user? Register</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- /.login-card-body -->
+
+                        </div>
+
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+        </div>
+    </form>
+
+
+    <div class="modal fade" id="modal-register">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Register</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="card-body login-card-body">
+                        <p class="login-box-msg">Register </p>
+
+                        <div class="custom-control custom-checkbox" style="padding-bottom: 25px;">
+                            <input type="checkbox" name="terms" id="exampleCheck1">    
+                            <label for="exampleCheck1">I accept <a href="#" onclick="openTermsAndConditons();">privacy and policy</a>.</label>
+                            
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <input type="text" id="txt_reg_username" class="form-control" placeholder="Full name">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-user"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" id="txt_reg_mobile" class="form-control" placeholder="Mobile No">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-mobile"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="email" id="txt_reg_email" class="form-control" placeholder="Email">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-envelope"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="password" id="txt_reg_password" class="form-control" placeholder="Password">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-lock"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" id="txt_refered_by" class="form-control" placeholder="Referal code(Optional)">
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-envelope"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <!-- /.col -->
+                            <div class="col-12">
+                                <button type="submit" onclick="customerRegister();" id="btn_register" class="btn btn-primary btn-block">Register Now</button>
+                            </div>
+                            <!-- /.col -->
+                        </div>
+
+
+                        <!-- /.social-auth-links -->
+                        <!-- /.login-card-body -->
+
+                    </div>
+
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-termsandconditions">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Privacy and policy</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="closeTermsAndConditons();">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <p>
+                        We operate http://www.kiakaha.in. This page informs you of our policies regarding the collection,
+                        use and disclosure of Personal Information we receive from users of the Site.
+                        We use your Personal Information only for providing and improving the Site. By using the Site, you
+                        agree to the collection and use of information in accordance with this policy
+
+                        <br />
+                        <br />
+                        <b>Information Collection And Use</b>
+                        <br />
+                        While using our Site, we may ask you to provide us with certain personally identifiable information
+                        that can be used to contact or identify you. Personally identifiable information may include, but is
+                        not limited to your name ("Personal Information").
+
+                        <br />
+                        <br />
+                        <b>Log Data</b>
+                        <br />
+                        Site This Log Data may include information such as your computer's Internet Protocol ("IP")
+                        address, browser type, browser version, the pages of our Site that you visit, the time and date of
+                        your visit, the time spent on those pages and other statistics.
+                        In addition, we may use third party services such as Google Analytics that collect, monitor and
+                        analyze this.
+                        <br />
+                        <br />
+                        <b>Communications</b>
+                        <br />
+                        We may use your Personal Information to contact you with newsletters, marketing or promotional
+                        materials and other information that may seem useful to you.
+                        <br />
+                        <br />
+                        <b>Cookies</b><br />
+                        Cookies are files with small amount of data, which may include an anonymous unique identifier.
+                        Cookies are sent to your browser from a web site and stored on your computer's hard drive.
+                        Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse
+                        all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you
+                        may not be able to use some portions of our Site.
+                        <br />
+                        <br />
+                        <b>Security</b><br />
+                        The security of your Personal Information is important to us, we use this data only to make your
+                        experience on our site better. We do not sell or distribute acquired data to any other third party.
+
+                        <br />
+                        <br />
+                        <b>Changes To This Privacy Policy</b>
+                        <br />
+                        This Privacy Policy is effective as of (add date) and will remain in effect except with respect to any
+                        changes in its provisions in the future, which will be in effect immediately after being posted on
+                        this page.
+                        <br />
+                        We reserve the right to update or change our Privacy Policy at any time and you should check this
+                        Privacy Policy periodically. Your continued use of the Service after we post any modifications to
+                        the Privacy Policy on this page will constitute your acknowledgment of the modifications and your
+                        consent to abide and be bound by the modified Privacy Policy.
+                        If we make any material changes to this Privacy Policy, we will notify you either through the email
+                        address you have provided us, or by placing a prominent notice on our website.
+                        <br />
+                        <br />
+                        <b>Contact Us</b>
+                        If you have any questions about this Privacy Policy, please contact us.
+                        +91 74068 99355, +91 96630 25636
+                    </p>
+
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="closeTermsAndConditons();">Close</button>
+
+                </div>
+            </div>
+
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+
+
+    <div class="modal fade" id="modal-showTermsAndConditons">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">  Terms and conditions-</h4>
+                    <button type="button" class="close" data-dismiss="modal" onclick="closeTermsAndConditons();" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Nothing
+                    </p>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="terms" id="Check1" class="custom-control-input">
+                        <label class="custom-control-label" for="Check1">I agree to the <a href="#">terms of service</a>.</label>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="closeTermsAndConditons();">Close</button>
+                    <button type="button" class="btn btn-primary" id="txt_paymentbutton" onclick="Payment();">Submit</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+
+
+
+    <script>
+        function openTermsAndConditons() {
+            //$('#modal-termsandconditions').show();
+            //$('#modal-termsandconditions').addClass('show');
+            window.location = "/TermsAndConditions/TermsAndCondition";
+        }
+
+        function closeTermsAndConditons() {
+            $('#modal-termsandconditions').hide();
+            $('#modal-termsandconditions').removeClass('show');
+        }
+    </script>
+
+    <!-- Bootstrap 4 -->
+    <script src="/Content/frontend/pmap_template/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/Content/frontend/pmap_template/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="/Content/frontend/pmap_template/dist/js/demo.js"></script>
+
+
+
+
+    <script>
+
+        $("#div_programs").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#div_programs_products").offset().top
+            }, 1000);
+        });
+
+    </script>
+
+
+
+    <script>
+
+        $("#div_package").click(function () {
+            $('html, body').animate({
+                scrollTop: $("#div_package_products").offset().top
+            }, 1000);
+        });
+    </script>
+
+    <script>
+
+    function showLogin() {
+        $('#modal-login').show();
+        $('#modal-login').addClass('show');
+    }
+
+    function hideLogin() {
+        $('#modal-login').hide();
+        $('#modal-login').removeClass('show');
+    }
+
+    function openCenterTimeTablePopup() {
+
+        var class_customer_guid = '';
+
+            var inputJson = {
+                class_customer_guid: class_customer_guid
+            };
+            console.log("ActiveMemberLastClassBookedWithoutRateCustomerID Request : ", JSON.stringify(inputJson));
+            jQuery.ajax({
+                type: "POST",
+                url: '/BookTheClass/ActiveMemberLastClassBookedWithoutRateCustomerID',
+                dataType: 'json',
+                data: JSON.stringify(inputJson),
+                contentType: "application/json; charset=utf-8",
+                success: function (res) {
+                    console.log("ActiveMemberClassBookingListByCustomerID : ", JSON.stringify(res));
+                    if (res.is_success) {
+                        if (res.msg != "Not Registered") {
+                             if (res.customer_class_booking_list.length != 0) {
+                                 for (var s = 0; s < res.customer_class_booking_list.length; s++) {
+                                     var st = res.customer_class_booking_list[s];
+
+                                     if (st.class_is_rated === false) {
+                                         // showWeekNameAndDate('2024-11-18');
+                                         //showWeekNameAndDate(st.class_booking_date);
+
+                                         showWeekNameAndDate();
+                                         document.getElementById("div_center_time_table").style.display = "block";
+                                         $('#msgRateNow').show();
+                                         // $('#ClassBooking').hide();
+
+                                     } else {
+
+                                         showWeekNameAndDate();
+                                     }
+
+                                 }
+                                  }
+                                else {
+                                    showWeekNameAndDate();
+                                }
+
+                        } else {
+                            showWeekNameAndDate();
+                            document.getElementById("div_center_time_table").style.display = "block";
+                        }
+                    }
+
+                },
+                failure: function (data) {
+                    alert("Network error occurred.");
+                    $(".overlay").hide();
+
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $(".overlay").hide();
+                }
+
+            });
+
+    }
+
+        //function openCenterTimeTablePopup() {
+
+        //    //showWeekNameAndDate('16/11/2024');
+        //    showWeekNameAndDate()
+        //   // showWeekNameAndDate('2024-11-16');
+        //    document.getElementById("div_center_time_table").style.display = "block";
+        //}
+
+
+    function closeCenterTimeTablePopup() {
+        document.getElementById("div_center_time_table").style.display = "none";
+    }
+
+    function showClassBookedPopup1() {
+        var cust_guid = '';
+        if (cust_guid == "") {
+            alert("Please Register First")
+        }
+        }
+    </script>
+
+    <script>
+
+            /* Book The Class start here */
+        function showBookTheClassPopup1(mem_branch_id, prod_guid, class_name, start_time, end_time, date_of_book, tt_guid) {
+            alert("hidd");
+    var cust_guid = '';
+    if (cust_guid == "") {
+
+        showLogin();
+        return;
+    }
+    var mem_cust_guid = '';
+    var inputJson = {
+        mem_branch_id: mem_branch_id,
+        prod_guid: prod_guid,
+        class_name: class_name,
+        start_time: start_time,
+        end_time: end_time,
+        mem_cust_guid: mem_cust_guid,
+        tt_guid: tt_guid,
+        date_of_book: date_of_book
+
+    };
+
+            console.log("showBookTheClassPopup input : ", JSON.stringify(inputJson));
+    $('#btn_submit').prop('disabled', true);
+    $(".overlay").show();
+    jQuery.ajax({
+        type: "POST",
+        url: '/ProductDetails/BookTheClassPopup',
+            contentType: "application/json",
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            success: function (res) {
+                $('#btn_submit').prop('disabled', false);
+                console.log("showBookTheClassPopup result : ", JSON.stringify(res));
+                if (res.is_success) {
+
+                    //  $('#book_Program').attr('hidden', true);;
+
+                    swal({
+                        title: "Class Booked!!!",
+                        text: "Your class has been successfully booked!",
+                        type: "success",
+                        confirmButtonText: "OK"
+                    }, function (isConfirm) {
+                        if (isConfirm) {
+                            window.location = "/FrontHome/FrontHome";
+                        }
+                    });
+
+                } else {
+                    if (!res.is_it_free) {
+
+                        $('#a_menu_free_trial').hide();
+
+                        final_prod_id = prod_guid;
+                        final_date_ofbook = date_of_book;
+                        final_tt_guid = tt_guid;
+                        final_amount = "500";
+                        console.log("final_prod_id: " + final_prod_id);
+                        console.log("final_tt_guid: " + final_tt_guid);
+
+                        //initiatePayment();
+                        alert("Success");
+                        window.location.reload();
+                    }
+
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $('#btn_login').prop('disabled', false);
+                $(".overlay").hide();
+            }
+
+        });
+
+
+    }
+            /* Book The Class start end */
+
+    </script>
+
+    <script>
+
+            /* Book The Class start here */
+        function showBookTheClassPopup1_bckp(mem_branch_id, prod_guid, class_name, start_time, end_time, date_of_book, tt_guid) {
+            alert("hidd");
+    var cust_guid = '';
+    if (cust_guid == "") {
+
+        showLogin();
+        return;
+    }
+    var mem_cust_guid = '';
+    var inputJson = {
+        mem_branch_id: mem_branch_id,
+        prod_guid: prod_guid,
+        class_name: class_name,
+        start_time: start_time,
+        end_time: end_time,
+        mem_cust_guid: mem_cust_guid,
+        tt_guid: tt_guid,
+        date_of_book: date_of_book
+
+    };
+
+            console.log("showBookTheClassPopup input : ", JSON.stringify(inputJson));
+    $('#btn_submit').prop('disabled', true);
+    $(".overlay").show();
+    jQuery.ajax({
+        type: "POST",
+        url: '/ProductDetails/BookTheClassPopup',
+            contentType: "application/json",
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            success: function (res) {
+                $('#btn_submit').prop('disabled', false);
+                console.log("showBookTheClassPopup result : ", JSON.stringify(res));
+                if (res.is_success) {
+
+                    //  $('#book_Program').attr('hidden', true);;
+
+                    swal({
+                        title: "Class Booked!!!",
+                        text: "Your class has been successfully booked!",
+                        type: "success",
+                        confirmButtonText: "OK"
+                    }, function (isConfirm) {
+                        if (isConfirm) {
+                            window.location = "/FrontHome/FrontHome";
+                        }
+                    });
+
+                } else {
+                    if (!res.is_it_free) {
+
+                        $('#a_menu_free_trial').hide();
+
+                        final_prod_id = prod_guid;
+                        final_date_ofbook = date_of_book;
+                        final_tt_guid = tt_guid;
+                        final_amount = "500";
+                        console.log("final_prod_id: " + final_prod_id);
+                        console.log("final_tt_guid: " + final_tt_guid);
+
+                        //initiatePayment();
+                        alert("Success");
+                        window.location.reload();
+                    }
+
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $('#btn_login').prop('disabled', false);
+                $(".overlay").hide();
+            }
+
+        });
+
+
+    }
+            /* Book The Class start end */
+
+    </script>
+
+    <script>
+
+
+        function showBookTheClassPopup(mem_branch_id, prod_guid, start_time, end_time, class_name,date_of_book, tt_guid) {
+            
+            var branch_guid = mem_branch_id, prod_guid = prod_guid, from_time = from_time;
+            var to_time = to_time, class_name = class_name, booking_date = date_of_book;
+            var class_booking_time = start_time + " To " + end_time;
+            var cust_guid = '';
+            var class_is_rated = 'false';
+            var rate_value = "";
+            var review_class = "";
+
+
+            var inputJson = {
+                class_branch_guid: branch_guid,
+                class_customer_guid: cust_guid,
+                class_booking_date: booking_date,
+                class_timing: class_booking_time,
+                class_program_name: class_name,
+                class_product_guid: prod_guid,
+                class_is_rated: class_is_rated,
+                class_rating: rate_value,
+                class_reviews: review_class,
+            };
+
+            console.log("ClassBooked input : ", JSON.stringify(inputJson));
+
+
+            $('#btn_book_class').prop('disabled', true);
+            $(".overlay").show();
+            jQuery.ajax({
+                type: "POST",
+                url: '/BookTheClass/ActiveMemberBookTheClass',
+                contentType: "application/json",
+                dataType: 'json',
+                data: JSON.stringify(inputJson),
+                success: function (res) {
+                    $('#btn_submit').prop('disabled', false);
+                    console.log("ClassBooked result : ", JSON.stringify(res));
+                    if (res.is_success) {
+                        //alert(res.msg);
+                        window.location = "/BookTheClass/BookTheClass";
+                        
+                        /*$('#btn_book_class').hide();*/
+                    } else {
+                        alert(res.msg);
+                    }
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $('#btn_login').prop('disabled', false);
+                    $(".overlay").hide();
+                }
+            });
+
+        }
+
+            //alert("ddthebooking");
+            
+
+
+    </script>
+
+    <script>
+        function showClassBookedPopupTrail(mem_branch_id, prod_guid, class_name, start_time, end_time, tt_guid, date_of_book) {
+            var cust_guid = '';
+            if (cust_guid == "") {
+
+                showLogin();
+                return;
+            }
+
+            var mem_cust_guid = '';
+            var inputJson = {
+                mem_branch_id: mem_branch_id,
+                prod_guid: prod_guid,
+                class_name: class_name,
+                start_time: start_time,
+                end_time: end_time,
+                mem_cust_guid: mem_cust_guid,
+                tt_guid: tt_guid,
+                date_of_book: date_of_book
+
+            };
+
+            console.log("showClassBookedPopup input : ", JSON.stringify(inputJson));
+            $('#btn_submit').prop('disabled', true);
+            $(".overlay").show();
+            jQuery.ajax({
+                type: "POST",
+                url: '/ProductDetails/BookedPopup',
+                contentType: "application/json",
+                dataType: 'json',
+                data: JSON.stringify(inputJson),
+                success: function (res) {
+                    $('#btn_submit').prop('disabled', false);
+                    console.log("showClassBookedPopup result : ", JSON.stringify(res));
+                    if (res.is_success) {
+
+                        //  $('#book_Program').attr('hidden', true);;
+
+                        swal({
+                            title: "Class Booked!!!",
+                            text: "Your class has been successfully booked!",
+                            type: "success",
+                            confirmButtonText: "OK"
+                        }, function (isConfirm) {
+                            if (isConfirm) {
+                                window.location = "/FrontHome/FrontHome";
+                            }
+                        });
+
+                    } else {
+                        if (!res.is_it_free) {
+                            $('#a_menu_free_trial').hide();
+
+                            final_prod_id = prod_guid;
+                            final_date_ofbook = date_of_book;
+                            final_tt_guid = tt_guid;
+                            final_amount = "500";
+                            console.log("final_prod_id: " + final_prod_id);
+                            console.log("final_tt_guid: " + final_tt_guid);
+
+                            //initiatePayment();
+                            alert(res.msg);
+                            window.location.reload();
+                        }
+
+                    }
+
+                },
+                failure: function (data) {
+                    alert("Network error occurred.");
+                    $('#btn_submit').prop('disabled', false);
+                    $(".overlay").hide();
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $('#btn_login').prop('disabled', false);
+                    $(".overlay").hide();
+                }
+
+            });
+
+
+        }
+
+    </script>
+
+
+    <script>
+
+
+
+    function hideFreeTrail() {
+
+        var cust_guid = '';
+            var inputJson = {
+                cust_guid: cust_guid,
+            }
+            console.log("activeProductDetails Request : ", JSON.stringify(inputJson));
+            $('#img_gif_loading_students_list').show();
+            jQuery.ajax({
+                type: "POST",
+                url:  '/CustomerProfile/activeProductDetails',
+                dataType: 'json',
+                data: JSON.stringify(inputJson),
+                contentType: "application/json; charset=utf-8",
+                success: function (res) {
+                    console.log("activeProductDetails Response : ", JSON.stringify(res));
+                    $('#btn_submit').prop('disabled', false);
+                    $(".overlay").hide();
+
+                    if (res.is_success) {
+                        var activePackage = "";
+                        for (var i = 0; i < res.active_list.length; i++) {
+                            var prod = res.active_list[i];
+
+                            if (prod.prod_category == "PACKAGES") {
+                                $('#a_menu_free_trial').hide();
+
+                            }
+
+                        }
+                        // $('#div_active_products').html(activePackage);
+                        //  $('#txt_trails').hide();
+
+
+                    } else {
+
+                        //$('#txt_trails').show();
+
+                        //$('#renew_button').html('<a href="/FrontHome/FrontHome#div_package_products" class="btn btn-primary btn-block">BUY MEMBERSHIP</a>')
+
+                    }
+
+                },
+                failure: function (data) {
+                    alert("Network error occurred.");
+                    $(".overlay").hide();
+
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $(".overlay").hide();
+                }
+
+            });
+
+        }
+
+
+    </script>
+
+
+
+
+    <script>
+
+
+    function hideTrail() {
+        var cust_guid = '';
+            var inputJson = {
+                cust_guid: cust_guid,
+            }
+            console.log("getTrailValues Request : ", JSON.stringify(inputJson));
+            $(".overlay").show();
+            jQuery.ajax({
+                type: "POST",
+                url: '/CustomerProfile/getTrailCount',
+                contentType: "application/json",
+                dataType: 'json',
+                data: JSON.stringify(inputJson),
+                success: function (res) {
+                    $('#btn_submit').prop('disabled', false);
+                    $(".overlay").hide();
+                    console.log("getTrailValues result : ", JSON.stringify(res));
+                    if (res.is_success) {
+
+                        if (res.total_trails == "2") {
+                            $('#a_menu_free_trial').hide();
+                            // $('#txt_trails').html('<h4>Total Free Trails Remaining : <span id="total_trails">0</span></h4>');
+                        }
+
+
+                    } else {
+
+                    }
+
+                },
+                failure: function (data) {
+                    alert("Network error occurred.");
+                    $('#btn_submit').prop('disabled', false);
+                    $(".overlay").hide();
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $('#btn_login').prop('disabled', false);
+                    $(".overlay").hide();
+                }
+
+            });
+        }
+
+    </script>
+
+    <script>
+        //hideFreeTrail();
+        //hideTrail();
+    </script>
+
+
+
+
+    <script>
+        function getTimeTable(week, date_of_book) {
+
+            var branch_guid = $('#sel_center').val();
+            var date = new Date(date_of_book);
+            date_of_book = ((date.getMonth() > 8) ? (date.getMonth() + 1) : ('0' + (date.getMonth() + 1))) + '/' + ((date.getDate() > 9) ? date.getDate() : ('0' + date.getDate())) + '/' + date.getFullYear();
+            if (branch_guid == "") {
+                alert("Please select center");
+                $('#sel_center').focus();
+                return;
+            }
+
+           // makeDateSelected(week);
+
+            var inputJson = {
+                tt_week: week,
+                tt_branch_guid: branch_guid
+
+
+            };
+            console.log("getTimeTable input : ", JSON.stringify(inputJson));
+            $('#img_gif_loading_btn_submit').show();
+            jQuery.ajax({
+                type: "POST",
+                url: '/ProductDetails/getTimeTable',
+                contentType: "application/json",
+                dataType: 'json',
+                data: JSON.stringify(inputJson),
+                success: function (res) {
+                    console.log("getTimeTable input : ", JSON.stringify(res));
+                    $('#img_gif_loading_btn_submit').hide();
+                    if (res.is_success) {
+                        var classes = "";
+
+                        classes = classes
+                            +
+                            '<div class="row">'
+                            + '<div class="col-4 col-4 col-md-4 col-lg-4">'
+                            + ' <label>'
+                            + ' <span ' + time_color + '> Class Timing  </span>'
+                            + '</label>'
+                            + '</div>'
+                            + '<div class="col-4 col-4 col-md-4 col-lg-4">'
+                            + ' <label>'
+                            + ' <span ' + time_color + '> Book The Trail Class  </span>'
+                            + '</label>'
+                            + '</div>'
+                            + '<div class="col-6 col-4 col-md-4 col-lg-4">'
+                            + ' <label>'
+                            + ' <span ' + time_color + '> Book The Class  </span>'
+                            + '</label>'
+                            + '</div>'
+                            + '</div><hr>'
+                        for (var i = 0; i < res.details_list.length; i++) {
+                            var tt = res.details_list[i];
+
+                            var time_color = 'style="color:#000000"';
+                            if (tt.tt_from_time == "5:00 PM") {
+                                time_color = 'style="color:#fc6dc0"';
+                            }
+
+                            var Trailparams = "'" + tt.tt_branch_guid + "','" + tt.tt_prod_guid + "', '" + tt.tt_from_time + "', '" + tt.tt_to_time + "',  '" + tt.tt_class_name + "','" + date_of_book + "','" + tt.tt_guid + "'";
+
+                            var params = "'" + tt.tt_branch_guid + "','" + tt.tt_prod_guid + "', '" + tt.tt_from_time + "', '" + tt.tt_to_time + "',  '" + tt.tt_class_name + "','" + date_of_book + "','" + tt.tt_guid + "'";
+
+
+                            classes = classes
+                                +
+                                '<div class="row">'
+                                + '<div class="col-4 col-4 col-md-4 col-lg-4">'
+                                + ' <label>'
+                                + ' <span ' + time_color + '>' + tt.tt_from_time + ' TO ' + tt.tt_to_time + '  </span>'
+                                + '</label>'
+                                + '</div>'
+                                + '<div class="col-4 col-4 col-md-4 col-lg-4" >'
+                                + ' <a href="#" onclick="showClassBookedPopupTrail(' + Trailparams + ')"  class="col-md-6 btn btn-block btn-outline-primary btn-sm" style="float: left;">' + tt.tt_class_name + '</a>'
+                                + ' </div>'
+                                + '<div class="col-6 col-4 col-md-4 col-lg-4" >'
+                                + ' <a href="#" onclick="showBookTheClassPopup(' + params + ')"  class="col-md-6 btn btn-block btn-outline-primary btn-sm" style="float: left;">' + tt.tt_class_name + '</a>'
+
+                               // + ' <a href="#" onclick="showBookTheClassPopup(' + params + ')"  class="col-md-6 btn btn-block btn-outline-primary btn-sm" style="float: left;">' + tt.tt_class_name + '</a>'
+                                + ' </div>'
+                            
+                     + '</div>'
+                     + '  <hr />';
+                        }
+                        $('#div_classes').html(classes);
+
+                    } else {
+                        alert(res.msg);
+                    }
+
+
+                },
+                failure: function (data) {
+                    alert("Network error occurred.");
+                    $('#btn_login').prop('disabled', false);
+                    $('#img_gif_loading_btn_submit').hide();
+                    $(".overlay").hide();
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $('#btn_login').prop('disabled', false);
+                    $(".overlay").hide();
+                }
+
+            });
+        }
+        //
+        //../ProductDetails/ProductDetails?product_id=' + tt.tt_prod_guid + '
+    </script>
+
+    
+    <script>
+        // Get last Booked Classes
+    function GetLastBookedClass() {
+        var class_customer_guid = '';
+
+        var inputJson = {
+            class_customer_guid: class_customer_guid
+        };
+        console.log("ActiveMemberClassBookingListByCustomerID Request : ", JSON.stringify(inputJson));
+        $('#img_gif_loading_students_list').show();
+        jQuery.ajax({
+            type: "POST",
+            url:'/FrontHome/ActiveMemberLastBookedClassByCustomerID',
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log("ActiveMemberClassBookingListByCustomerID : ", JSON.stringify(res));
+            $('#btn_submit').prop('disabled', false);
+            $('#img_gif_loading_students_list').hide();
+
+                if (res.is_success) {
+
+                    $('#div_booked_table').html('');
+                    var tableDataFrnt = '';
+                    tableDataFrnt = '<table id="datatable" class="table table-striped table-bordered">' +
+                        '<thead>' +
+                        '<tr>' +
+                        '<th>#</th>' +
+                        '<th>BRANCH_NAME</th>' +
+                        '<th>CUSTOMER_NAME</th>' +
+                        '<th>BOOKING_DATE</th>' +
+                        '<th>CLASS_TIME</th>' +
+                        '<th>PROGRAM_NAME</th>' +
+                        '</tr>' +
+                        '</thead>' +
+                        '<tbody>';
+                    for (var s = 0; s < res.customer_class_booking_list.length; s++) {
+                        var st = res.customer_class_booking_list[s];
+                        tableDataFrnt = tableDataFrnt + '<tr>' +
+                        '<td>' + (s + 1) + '</td>' +
+                        '<td>' + st.branch_name + '</td>' +
+                        '<td>' + st.cust_name + '</td>' +
+                        '<td>' + st.class_booking_date + '</td>' +
+                        '<td>' + st.class_timing + '</td>' +
+                        '<td>' + st.class_program_name + '</td>' +
+                    '</tr>';
+
+                }
+                    tableDataFrnt = tableDataFrnt + '</tbody>' +
+                        '</table>'
+
+                    $('#div_booked_table').append(tableDataFrnt);
+
+            } else {
+                alert(res.msg);
+                //window.location.reload();
+            }
+
+        },
+        failure: function (data) {
+            alert("Network error occurred.");
+            $(".overlay").hide();
+
+        },
+        error: function (jqXHR, exception) {
+            if (jqXHR.status === 0) {
+                alert('Please Check Your Internet Connection.');
+            } else if (jqXHR.status == 404) {
+                alert('Requested page not found. [404]');
+            } else if (jqXHR.status == 500) {
+                alert('Internal Server Error [500].');
+            } else if (exception === 'parsererror') {
+                alert('Requested JSON parse failed.');
+            } else if (exception === 'timeout') {
+                alert('Time out error.');
+            } else if (exception === 'abort') {
+                alert('Ajax request aborted.');
+            } else {
+                alert('Uncaught Error.\n' + jqXHR.responseText);
+            }
+            $(".overlay").hide();
+        }
+
+    });
+}     //
+     //../ProductDetails/ProductDetails?product_id=' + tt.tt_prod_guid + '
+    </script>
+
+
+    <script>
+        function showWeekNameAndDate() {
+
+            var week_and_date = "";
+            var d = new Date();
+            var today_week_number = d.getDay();
+            $('#div_weeks_and_date').html('');
+            for (var i = 0; i < 7; i++) {
+
+                var next_day_week_number = i + today_week_number;
+                console.log("today_week_number: ", today_week_number);
+                console.log("next_day_week_number: ", next_day_week_number);
+                if (next_day_week_number == 7 || next_day_week_number == 0) {
+                    continue;
+                }
+
+
+                if (next_day_week_number >= 8) {
+                    next_day_week_number = next_day_week_number - 7;
+                }
+
+                var next_date = new Date();
+                next_date.setDate(d.getDate() + i);
+
+                var week_name = getWeekName(next_day_week_number);
+
+                var selected_day_id = getWeekName(next_day_week_number);
+                var next_date_ = next_date.getDate();
+                if (next_date_.length == 1) {
+                    next_date_ = "0" + next_date_;
+                }
+
+                var params = "'" + week_name + "','" + next_date + "'";
+                week_and_date = week_and_date +
+                    '<div class="col-2 col-2 col-md-2 col-lg-2" onclick="getTimeTable(' + params + ');">' +
+                    '<label>' +
+                    '<span >' + week_name + '</span>' +
+                    '<center id="' + selected_day_id + '">' + next_date_ + '</center>' +
+                    '</label>' +
+                    '</div>';
+            }
+            $('#div_weeks_and_date').html(week_and_date);
+
+        }
+    </script>
+    <script>
+        function showWeekNameAndDate(endDate) {
+            var week_and_date = "";
+            var d = new Date();
+            var today_week_number = d.getDay();
+            $('#div_weeks_and_date').html('');
+
+            // Parse the end date passed to the function
+            var endDateObj = new Date(endDate);
+            endDateObj.setDate(endDateObj.getDate() + 1); // Add one day
+
+            for (var i = 0; i < 7; i++) {
+                var next_day_week_number = i + today_week_number;
+                console.log("today_week_number: ", today_week_number);
+                console.log("next_day_week_number: ", next_day_week_number);
+
+                if (next_day_week_number == 7 || next_day_week_number == 0) {
+                    continue;
+                }
+
+                if (next_day_week_number >= 8) {
+                    next_day_week_number = next_day_week_number - 7;
+                }
+
+                var next_date = new Date();
+                next_date.setDate(d.getDate() + i);
+
+                // If next_date exceeds the passed end date, stop the loop
+                if (next_date > endDateObj) {
+                    break;
+                }
+
+                var week_name = getWeekName(next_day_week_number);
+                var selected_day_id = getWeekName(next_day_week_number);
+                var next_date_ = next_date.getDate();
+
+                if (next_date_.length == 1) {
+                    next_date_ = "0" + next_date_;
+                }
+
+                var params = "'" + week_name + "','" + next_date + "'";
+                week_and_date = week_and_date +
+                    '<div class="col-2 col-2 col-md-2 col-lg-2" onclick="getTimeTable(' + params + ');">' +
+                    '<label>' +
+                    '<span >' + week_name + '</span>' +
+                    '<center id="' + selected_day_id + '">' + next_date_ + '</center>' +
+                    '</label>' +
+                    '</div>';
+            }
+
+            $('#div_weeks_and_date').html(week_and_date);
+        }
+
+    </script>
+    <script>
+        function makeDateSelected(selected_week_name) {
+
+            var d = new Date();
+            var today_week_number = d.getDay();
+            for (var i = 0; i < 7; i++) {
+                var next_day_week_number = i + today_week_number;
+
+                if (next_day_week_number == 7 || next_day_week_number == 0) {
+                    continue;
+                }
+
+                if (next_day_week_number >= 8) {
+                    next_day_week_number = next_day_week_number - 7;
+                }
+
+                var week_name = getWeekName(next_day_week_number);
+
+                if (selected_week_name == week_name) {
+                    document.getElementById(selected_week_name).className = "circle_week";
+                } else {
+                    document.getElementById(week_name).className = "circle_week_";
+                }
+
+            }
+        }
+
+    </script>
+
+    <script>
+        function getWeekName(week_number) {
+            switch (week_number) {
+                case 1:
+                    return "Mon";
+                    break;
+                case 2:
+                    return "Tue";
+                    break;
+                case 3:
+                    return "Wed";
+                    break;
+                case 4:
+                    return "Thu";
+                    break;
+                case 5:
+                    return "Fri";
+                    break;
+                case 6:
+                    return "Sat";
+                    break;
+                case 7:
+                    return "Sun";
+                    break;
+
+            }
+        }
+    </script>
+
+
+
+
+
+
+    <script>
+        function getBranches() {
+
+            jQuery.ajax({
+                type: "POST",
+                url: '/ProductDetails/getBranches',
+                contentType: "application/json",
+                dataType: 'json',
+                data: '',
+                success: function (res) {
+                    console.log("getBranches output : ", JSON.stringify(res));
+                    if (res.is_success) {
+                        $('#sel_center').html('');
+                        var branches = '<option selected value="">--SELECT CENTER--</option>';
+
+                        for (var i = 0; i < res.branch_list.length; i++) {
+                            var branch = res.branch_list[i];
+                            branches = branches
+                           + '<option value="' + branch.branch_guid + '">' + branch.branch_name + '</option>';
+
+                        }
+                        $('#sel_center').html(branches);
+                        $('#sel_branch').html(branches);
+                        $('#sel_class_center').html(branches);
+
+                    } else {
+                        alert(res.msg);
+                    }
+
+                },
+                failure: function (data) {
+                    alert("Network error occurred.");
+                    $('#btn_login').prop('disabled', false);
+                    $(".overlay").hide();
+                },
+                error: function (jqXHR, exception) {
+                    if (jqXHR.status === 0) {
+                        alert('Please Check Your Internet Connection.');
+                    } else if (jqXHR.status == 404) {
+                        alert('Requested page not found. [404]');
+                    } else if (jqXHR.status == 500) {
+                        alert('Internal Server Error [500].');
+                    } else if (exception === 'parsererror') {
+                        alert('Requested JSON parse failed.');
+                    } else if (exception === 'timeout') {
+                        alert('Time out error.');
+                    } else if (exception === 'abort') {
+                        alert('Ajax request aborted.');
+                    } else {
+                        alert('Uncaught Error.\n' + jqXHR.responseText);
+                    }
+                    $('#btn_login').prop('disabled', false);
+                    $(".overlay").hide();
+                }
+
+            });
+        }
+
+    </script>
+
+
+    <script>
+
+        getBranches();
+
+    </script>
+
+
+    
+    <script>
+
+
+
+    //REGISTER
+    function customerRegister() {
+
+        var name = $('#txt_reg_username').val();
+        var mobile_number = $('#txt_reg_mobile').val();
+        var email = $('#txt_reg_email').val();
+        var password = $('#txt_reg_password').val();
+        var refered_by = $('#txt_refered_by').val();
+
+
+
+        if (name == "") {
+            alert("Please enter name");
+            $('#txt_reg_username').focus();
+            return;
+        }
+
+        if (mobile_number == "") {
+            alert("Please enter mobile number");
+            $('#txt_reg_mobile').focus();
+            return;
+        }
+
+        if (mobile_number.length != 10) {
+            alert("Please enter valid  mobile number");
+            $('#txt_reg_mobile').focus();
+            return;
+        }
+
+        if (email == "") {
+            alert("Please enter email");
+            $('#txt_reg_email').focus();
+            return;
+        }
+
+        if (email != "") {
+            var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            if (!expr.test(email)) {
+                alert("Please enter valid Email ");
+                $('#txt_reg_email').focus();
+                return;
+            }
+        }
+
+        if (password == "") {
+            alert("Please enter password");
+            $('#txt_reg_password').focus();
+            return;
+        }
+
+        var Checkbox = document.getElementById("exampleCheck1");
+        if (!Checkbox.checked) {
+            alert("Please Agree To Our Privacy And Policy!!");
+            return;
+        }
+
+
+        var inputJson = {
+            name: name,
+            email: email,
+            mobile_number: mobile_number,
+            password: password,
+            refered_by: refered_by
+
+        };
+
+        console.log("customerRegister input : ", JSON.stringify(inputJson));
+        $('#btn_register').prop('disabled', true);
+        jQuery.ajax({
+            type: "POST",
+            url:  '/FrontHome/customerRegister',
+            contentType: "application/json",
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            success: function (res) {
+                $('#btn_register').prop('disabled', false);
+                console.log("customerRegister result : ", JSON.stringify(res));
+                if (res.is_success) {
+                    // alert(res.msg);
+
+                    window.location = "/CustomerProfile/CustomerProfile";
+
+                } else {
+                    alert(res.msg);
+                }
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $('#btn_register').prop('disabled', false);
+                $(".overlay").hide();
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $('#btn_register').prop('disabled', false);
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+
+    //LOGIN
+    function customerLogin() {
+
+        var username = $('#txt_log_username').val();
+        var password = $('#txt_log_userpassword').val();
+
+        if (username == "") {
+            alert("Please enter username");
+            $('#txt_log_username').focus();
+            return;
+        }
+        if (password == "") {
+            alert("Please enter password");
+            $('#txt_log_userpassword').focus();
+            return;
+        }
+
+        var inputJson = {
+            username: username,
+            password: password
+
+        };
+
+        console.log("customerLogin input : ", JSON.stringify(inputJson));
+
+        $('#btn_login').prop('disabled', true);
+        $(".overlay").show();
+        jQuery.ajax({
+            type: "POST",
+            url: '/FrontHome/customerLogin',
+            contentType: "application/json",
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            success: function (res) {
+
+                $('#btn_login').prop('disabled', false);
+                $(".overlay").hide();
+                if (res.is_success) {
+                    //  alert(res.msg);
+
+                    window.location = "/CustomerProfile/CustomerProfile";
+
+                } else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $('#btn_login').prop('disabled', false);
+                $(".overlay").hide();
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $('#btn_login').prop('disabled', false);
+                $(".overlay").hide();
+            }
+
+        });
+    }
+    </script>
+
+
+    <script>
+    function checkCustomerLogin() {
+
+        var cust_name = '';
+
+            if (cust_name != '') {
+                if (cust_name.length > 8) {
+                    cust_name = cust_name.substring(0, 8);
+                }
+                $('#li_customer_login').html('<a href="/CustomerProfile/CustomerProfile" style="color:#17a2b8" class="nav-link" id="a_menu_sign_in">' + cust_name + '</a>');
+                hideFreeTrail();
+                hideTrail();
+            } else {
+                $('#li_customer_login').html('<a href="#" data-toggle="modal" data-target="#modal-login" class="nav-link" id="a_menu_sign_in">Sign&#160;in</a>');
+            }
+
+            checkScreenSizeInFrontEnd();
+
+        }
+
+    </script>
+
+
+    <script>
+        function loadInit() {
+            checkCustomerLogin();
+        }
+        loadInit();
+    </script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+<div>
+    <form action="https://kiakaha.in/PmapPayment/pmap_payments.php" method="post" name="payuForm" id="payuForm">
+        <input type="hidden" name="amount" value="" id="amount" />
+        <input type="hidden" name="is_website" value="" id="is_website" />
+        <input type="hidden" name="payment_for" value="" id="payment_for" />
+        <input type="hidden" name="uid" value="" id="uid" />
+        <input type="hidden" name="firstname" value="" id="firstname" />
+        <input type="hidden" name="lastname" value="" id="lastname" />
+        <input type="hidden" name="email" value="" id="email" />
+        <input type="hidden" name="phone" value="" id="phone" />
+        <input type="hidden" name="productinfo" value="" id="productinfo" />
+        <input type="hidden" name="merchant_key" value="" id="merchant_key" />
+        <input type="hidden" name="salt" value="" id="salt" />
+        <input type="hidden" name="merchant_id" value="" id="merchant_id" />
+        <input type="hidden" name="payu_base_url" value="" id="payu_base_url" />
+        <input type="hidden" name="surl" value="" id="surl" />
+        <input type="hidden" name="furl" value="" id="furl" />
+        <input type="hidden" name="txnid" value="" id="txnid" />
+
+        <input type="hidden" value="Submit" />
+    </form>
+
+</div>
+
+
+<script>
+
+    var final_prod_id = "";
+    var final_date_ofbook = "";
+    var final_tt_guid = "";
+    var final_amount = "";
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function initiatePayment() {
+        var product_id = final_prod_id;
+        var amount = final_amount;
+        var tt_guid = final_tt_guid;
+        var start_date = final_date_ofbook;
+
+
+
+        var branch_guid = "";
+        if ($('#sel_branch').length) {
+            branch_guid = $('#sel_branch').val();
+            if (branch_guid == "") {
+                branch_guid = $('#sel_center').val();
+            }
+        } else {
+            branch_guid = $('#sel_center').val();
+
+        }
+
+        var cust_guid = '';
+        if (cust_guid == "") {
+            showLogin();
+            return;
+        }
+
+        if (branch_guid == "") {
+            alert("Select Center");
+            return;
+        }
+
+        //var terms = document.getElementById("Check1");
+        //if (!terms.checked) {
+        //    alert('You must agree to the terms first1.');
+        //    return;
+        //}
+
+
+
+        var cust_name = '';
+        var cust_mobile_number = '';
+        var cust_email = '';
+        var tt_guid = "";
+
+
+        var inputJson = {
+            prod_guid: product_id,
+            cust_guid: cust_guid,
+            tt_guid: tt_guid,
+            amount: amount,
+            start_date: start_date,
+            branch_guid: branch_guid
+        };
+        console.log("initiatePayment input : ", JSON.stringify(inputJson));
+        $('#txt_paymentbutton').prop('disabled', true);
+        $(".overlay").show();
+
+        jQuery.ajax({
+            type: "POST",
+            url: '/ProductDetails/initiatePayment',  
+            contentType: "application/json",
+            dataType: 'json',
+            data: JSON.stringify(inputJson),
+            success: function (res) {
+                console.log("initiatePayment output : ", JSON.stringify(res));
+                if (res.is_success) {
+                    var pm = res.payu_money_details[0];
+                    $('#amount').val(amount);
+                    $('#is_website').val("YES");
+                    $('#payment_for').val("PRODUCT");
+                    $('#uid').val(cust_guid);
+                    $('#firstname').val(cust_name);
+                    $('#lastname').val(cust_name);
+                    $('#email').val(cust_email);
+                    $('#phone').val(cust_mobile_number);
+                    $('#productinfo').val(pm.pm_product_info);
+                    $('#merchant_key').val(pm.pm_merchant_key);
+                    $('#salt').val(pm.pm_salt);
+                    $('#merchant_id').val(pm.pm_merchant_id);
+                    $('#payu_base_url').val(pm.pm_payu_base_url);
+                    $('#surl').val(pm.pm_surl);
+                    $('#furl').val(pm.pm_furl);
+                    $('#txnid').val(pm.pm_trans_id);
+
+                    var payuForm = document.forms.payuForm;
+                    payuForm.submit();
+
+                } else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $('#txt_paymentbutton').prop('disabled', false);
+                $(".overlay").hide();
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $('#txt_paymentbutton').prop('disabled', false);
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+</script>
+
+
+
+<script>
+    $(function () {
+        checkScreenSizeInFrontEnd();
+    });
+
+    function checkScreenSizeInFrontEnd() {
+
+        if (jQuery(window).width() < 340) {
+            $('#main_body').addClass('main_body_style');
+        }
+
+        if (jQuery(window).width() < 500) {
+
+            $('#a_img_logo').addClass('logo_size_mobile');
+            $('#a_menu_free_trial').addClass('fixed_menu_mobile');
+            $('#li_customer_login').addClass('menu_sign_in_div_mobile');
+
+
+            $('#a_menu_programs').addClass('menu_text_font');
+            $('#a_menu_time_table').addClass('menu_text_font');
+            $('#a_menu_sign_in').addClass('menu_text_font');
+        } else {
+            $('#a_img_logo').addClass('logo_size');
+            $('#a_menu_free_trial').addClass('fixed_menu');
+            $('#li_customer_login').addClass('menu_sign_in_div');
+        }
+    }
+
+</script>
+
+
+
+
+
+<script>
+    function getGeneralSettingDetails() {
+
+        jQuery.ajax({
+            type: "POST",
+            url: '/FrontHome/getGeneralSettingDetails',
+            dataType: 'json',
+            data: '',
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log("getGeneralSettingDetails Response : ", JSON.stringify(res));
+                $('#btn_submit').prop('disabled', false);
+                $(".overlay").hide();
+
+                if (res.is_success) {
+
+                    var slider_pc = '';
+                    var slider_mobile = '';
+                    var main_key_points = '';
+                    var logo = '';
+                    var footer = '';
+
+                    for (var i = 0; i < res.details_list.length; i++) {
+                        var prod = res.details_list[i];
+
+                        var key_points_style = 'style="height: 150px;margin-top: -5px;"';
+                        if (jQuery(window).width() < 500) {
+                            key_points_style = 'style="height: 130px;margin-top: -8px;"';
+                        }
+
+                        var main_key_points = '<div class="col-md-3" id="why_kk_text_1">'
+                            + '<div class="card card-primary">'
+                                + '<div class="card-body" ' + key_points_style + '>'
+                                    + '<h2 style="font-size:38px; color: red;">#1</h2><span id="kk_text_1">' + prod.gs_main_point_1 + '</span>'
+                                + '</div>'
+                            + '</div>'
+                        + '</div>'
+
+                        + '<div class="col-md-3" id="why_kk_text_2">'
+                            + '<div class="card card-primary">'
+                                + '<div class="card-body" ' + key_points_style + '>'
+                                    + '<h2 style="font-size:38px; color: red;">#2</h2> <span id="kk_text_2">' + prod.gs_main_point_2 + ' </span>'
+                                + '</div>'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="col-md-3" id="why_kk_text_3">'
+                            + '<div class="card card-primary">'
+                                + '<div class="card-body" style="height: 150px;margin-top: -5px;">'
+                                    + '<h2 style="font-size:38px; color: red;">#3</h2><span id="kk_text_3">' + prod.gs_main_point_3 + '</span>'
+
+                                + '</div>'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="col-md-3" id="why_kk_text_4">'
+                            + '<div class="card card-primary">'
+                                + '<div class="card-body" style="height: 150px;margin-top: -5px;">'
+                                    + '<h2 style="font-size:38px; color: red;">#4</h2><span id="kk_text_4"> ' + prod.gs_main_point_4 + ' </span>'
+                                + '</div>'
+                            + '</div>'
+                        + '</div>';
+
+
+                        var slider_pc = '<div class="col-md-12" style="padding: 0;">'
+       + '  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">'
+           + '  <ol class="carousel-indicators">'
+                + ' <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>'
+                + ' <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>'
+                + ' <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>'
+            + ' </ol>'
+            + ' <div class="carousel-inner">'
+              + '   <div class="carousel-item active">'
+                  + '   <img class="d-block w-100" src="/Uploads/Slider_images/' + prod.gs_slider_1_pc + '" id="img_slider_1" alt="First slide">'
+              + '   </div>'
+              + '   <div class="carousel-item">'
+                    + ' <img class="d-block w-100" src="/Uploads/Slider_images/' + prod.gs_slider_2_pc + '"  id="img_slider_2" alt="Second slide">'
+             + '    </div>'
+               + '  <div class="carousel-item">'
+                 + '    <img class="d-block w-100" src="/Uploads/Slider_images/' + prod.gs_slider_3_pc + '"  id="img_slider_3" alt="Third slide">'
+              + '   </div>'
+               + '  <div class="carousel-item">'
+                 + '    <img class="d-block w-100" src="/Uploads/Slider_images/' + prod.gs_slider_4_pc + '"  id="img_slider_3" alt="Third slide">'
+              + '   </div>'
+         + '    </div>'
+         + '    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">'
+            + '     <span class="carousel-control-prev-icon" aria-hidden="true"></span>'
+            + '     <span class="sr-only">Previous</span>'
+          + '   </a>'
+           + '  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">'
+             + '    <span class="carousel-control-next-icon" aria-hidden="true"></span>'
+             + '    <span class="sr-only">Next</span>'
+          + '   </a>'
+         + '</div>'
+    + ' </div>';
+
+
+
+                        var slider_mobile = '<div class="col-md-12" style="padding: 0;">'
+       + '  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">'
+           + '  <ol class="carousel-indicators">'
+             + '    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>'
+              + '   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>'
+               + '  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>'
+           + '  </ol>'
+             + '<div class="carousel-inner">'
+               + '  <div class="carousel-item active">'
+                + '     <img class="d-block w-100" src="/Uploads/Slider_mobile_images/' + prod.gs_slider_1_mobile + '"  id="img_slider_1" alt="First slide">'
+               + '  </div>'
+               + '  <div class="carousel-item">'
+              + '        <img class="d-block w-100" src="/Uploads/Slider_mobile_images/' + prod.gs_slider_2_mobile + '"  alt="Second slide">'
+               + '  </div>'
+              + '   <div class="carousel-item">'
+                 + '    <img class="d-block w-100" src="/Uploads/Slider_mobile_images/' + prod.gs_slider_3_mobile + '" alt="Third slide">'
+                + ' </div>'
+                 + '   <div class="carousel-item">'
+                 + '    <img class="d-block w-100" src="/Uploads/Slider_mobile_images/' + prod.gs_slider_4_mobile + '" alt="Third slide">'
+                + ' </div>'
+           + '  </div>'
+           + '  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">'
+                + ' <span class="carousel-control-prev-icon" aria-hidden="true"></span>'
+               + '  <span class="sr-only">Previous</span>'
+            + ' </a>'
+            + ' <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">'
+               + '  <span class="carousel-control-next-icon" aria-hidden="true"></span>'
+              + '   <span class="sr-only">Next</span>'
+            + ' </a>'
+        + ' </div>'
+     + '</div>';
+
+
+
+                        var logo = ' <a href="/FrontHome/FrontHome" class="nav-link">'
+                             + ' <img src="/Uploads/Logo/' + prod.gs_logo + '" id="a_img_logo" />'
+                               + '</a>'
+
+
+                        var footer = '<div class="col-md-6">'
+                   + ' <p style="font-size: 20px;color: #f8f9fa;">' + prod.gs_footer_heading_1 + '</p>'
+                   + ' <p> ' + prod.gs_footer_description_1 + '   </p>'
+                     + ' </div>'
+
+               + ' <div class="col-md-6">'
+                   + ' <p style="font-size: 20px;color: #f8f9fa;">' + prod.gs_footer_heading_2 + '</p>'
+                   + ' <p> ' + prod.gs_footer_description_2 + '   </p>'
+               + ' </div>'
+
+
+
+                        $('#txt_organisation').html(prod.gs_organisation_name);
+                        $('#txt_logo').html(logo);
+                        checkScreenSizeInFrontEnd();
+                        $('#div_banner_system').html(slider_pc);
+                        $('#div_banner_mobile').html(slider_mobile);
+                        getBanner();
+                        $('#div_main_key_points').html(main_key_points);
+                        $('#txt_main_heading').html(prod.gs_main_point_heading);
+                        checkWidth();
+                        $('#txt_footer').html(footer);
+                    }
+                }
+
+                else {
+                    alert(res.msg);
+                }
+
+            },
+            failure: function (data) {
+                alert("Network error occurred.");
+                $(".overlay").hide();
+
+            },
+            error: function (jqXHR, exception) {
+                if (jqXHR.status === 0) {
+                    alert('Please Check Your Internet Connection.');
+                } else if (jqXHR.status == 404) {
+                    alert('Requested page not found. [404]');
+                } else if (jqXHR.status == 500) {
+                    alert('Internal Server Error [500].');
+                } else if (exception === 'parsererror') {
+                    alert('Requested JSON parse failed.');
+                } else if (exception === 'timeout') {
+                    alert('Time out error.');
+                } else if (exception === 'abort') {
+                    alert('Ajax request aborted.');
+                } else {
+                    alert('Uncaught Error.\n' + jqXHR.responseText);
+                }
+                $(".overlay").hide();
+            }
+
+        });
+
+    }
+
+</script>
+
+
+
+
+<script>
+    getGeneralSettingDetails();
+</script>
+
+
+<script>
+
+    function getBanner() {
+
+
+        if (jQuery(window).width() >= 500) {//FOR SYSTEM JUST SHOW, FOR MOBILE HIDE
+            $('#div_banner_system').show();
+            $('#div_banner_mobile').html("");
+
+        } else {
+            $('#div_banner_system').html("");
+            $('#div_banner_mobile').show();
+        }
+
+
+    }
+
+
+    function checkWidth() {
+        if (jQuery(window).width() < 500) {
+
+
+            for (var img = 1; img <= 3; img++) {
+                img_id = "img_slider_" + img;
+                $('#' + img_id).addClass('slider_img_size_mobile');
+            }
+
+            //FOR WHY KIKAHA
+            $('#why_kk_text_1').addClass('custom-col-sm-6');
+            $('#why_kk_text_2').addClass('custom-col-sm-6');
+            $('#why_kk_text_3').addClass('custom-col-sm-6');
+            $('#why_kk_text_4').addClass('custom-col-sm-6');
+
+            //======FOR PROGRAMS=====
+            for (var i = 0; i < prod_programs_size; i++) {
+                var _id = "prod" + i;
+                $('#' + _id).addClass('custom-col-sm-6');
+            }
+
+            //======FOR PACKAGES=====
+            //for (var i = 0; i < prod_packages_size; i++) {
+            //    var _id = "prod_pkg" + i;
+            //    $('#' + _id).addClass('custom-col-sm-6');
+            //}
+
+
+
+            $('#kk_text_1').addClass('kiakha_mobile');
+            $('#kk_text_2').addClass('kiakha_mobile');
+            $('#kk_text_3').addClass('kiakha_mobile');
+            $('#kk_text_4').addClass('kiakha_mobile');
+
+
+
+            //===========REVIEWS==========
+            $('#div_review_1').addClass('custom-col-sm-12');
+            $('#div_review_2').addClass('custom-col-sm-12');
+            $('#div_review_3').addClass('custom-col-sm-12');
+            $('#div_review_4').addClass('custom-col-sm-12');
+
+
+            //===========FAQ==========
+            $('#faq_1').addClass('custom-col-sm-4');
+            $('#faq_2').addClass('custom-col-sm-4');
+            //$('#faq_3').addClass('custom-col-sm-4');
+            $('#faq_mobile').addClass('faq_mobile');
+
+            ////LOCATION
+            $('#map_1').addClass('custom-col-sm-4');
+            $('#map_2').addClass('custom-col-sm-4');
+            $('#map_3').addClass('custom-col-sm-4');
+
+            $('#blog_mob').addClass('blog_mobile');
+            $('#div_blogs').addClass('blogdetails_mobile');
+
+
+        } else {
+            for (var img = 1; img <= 3; img++) {
+                img_id = "img_slider_" + img;
+                $('#' + img_id).addClass('slider_img_size');
+            }
+
+            $('#kk_text_1').addClass('kiakha_web');
+            $('#kk_text_2').addClass('kiakha_web');
+            $('#kk_text_3').addClass('kiakha_web');
+            $('#kk_text_4').addClass('kiakha_web');
+
+            $('#div_programs_products').addClass('margin_for_products');
+            $('#div_package_products').addClass('margin_for_products');
+            $('#div_reviews').addClass('margin_for_products');
+            $('#div_reviews_system').addClass('margin_for_products');
+            $('#div_faq').addClass('margin_for_products');
+            $('#div_location').addClass('margin_for_products');
+
+            $('#h2_programs').addClass('margin_left_for_headings');
+            $('#h2_packages').addClass('margin_left_for_headings');
+            $('#h2_reviews').addClass('margin_left_for_headings');
+            $('#h2_faq').addClass('margin_left_for_headings');
+            $('#h2_location').addClass('margin_left_for_headings');
+
+            $('#sub_programs').addClass('margin_for_sub_headings');
+
+            $('#blog_mob').addClass('blog_web');
+            $('#div_blogs').addClass('blogdetails_web');
+            
+           
+        }
+
+      
+    }
+
+</script>
